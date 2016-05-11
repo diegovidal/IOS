@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8908DE721A1CD2010022A6B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8908DE711A1CD2010022A6B4 /* Foundation.framework */; };
+		8908DE741A1CD2010022A6B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8908DE731A1CD2010022A6B4 /* CoreGraphics.framework */; };
+		8908DE761A1CD2010022A6B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8908DE751A1CD2010022A6B4 /* UIKit.framework */; };
+		8908DE7C1A1CD2010022A6B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8908DE7A1A1CD2010022A6B4 /* InfoPlist.strings */; };
+		8908DE7E1A1CD2010022A6B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8908DE7D1A1CD2010022A6B4 /* main.m */; };
+		8908DE821A1CD2010022A6B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8908DE811A1CD2010022A6B4 /* AppDelegate.m */; };
+		8908DE851A1CD2010022A6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8908DE831A1CD2010022A6B4 /* Main.storyboard */; };
+		8908DE881A1CD2010022A6B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8908DE871A1CD2010022A6B4 /* ViewController.m */; };
+		8908DE8A1A1CD2010022A6B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8908DE891A1CD2010022A6B4 /* Images.xcassets */; };
+		8908DE911A1CD2010022A6B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8908DE901A1CD2010022A6B4 /* XCTest.framework */; };
+		8908DE921A1CD2010022A6B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8908DE711A1CD2010022A6B4 /* Foundation.framework */; };
+		8908DE931A1CD2010022A6B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8908DE751A1CD2010022A6B4 /* UIKit.framework */; };
+		8908DE9B1A1CD2010022A6B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8908DE991A1CD2010022A6B4 /* InfoPlist.strings */; };
+		8908DE9D1A1CD2010022A6B4 /* receitasListaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8908DE9C1A1CD2010022A6B4 /* receitasListaTests.m */; };
+		8908DEA81A1CD2900022A6B4 /* Receita.m in Sources */ = {isa = PBXBuildFile; fileRef = 8908DEA71A1CD2900022A6B4 /* Receita.m */; };
+		8908DEAA1A1CD5DF0022A6B4 /* receita6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8908DEA91A1CD5DF0022A6B4 /* receita6.jpeg */; };
+		8908DEAC1A1CD6890022A6B4 /* receita5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8908DEAB1A1CD6890022A6B4 /* receita5.jpg */; };
+		8908DEB11A1CD6930022A6B4 /* receita1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8908DEAD1A1CD6930022A6B4 /* receita1.jpg */; };
+		8908DEB21A1CD6930022A6B4 /* receita2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8908DEAE1A1CD6930022A6B4 /* receita2.jpg */; };
+		8908DEB31A1CD6930022A6B4 /* receita3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8908DEAF1A1CD6930022A6B4 /* receita3.jpg */; };
+		8908DEB41A1CD6930022A6B4 /* receita4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8908DEB01A1CD6930022A6B4 /* receita4.jpg */; };
+		8908DEB71A1CD9E00022A6B4 /* ReceitaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8908DEB61A1CD9E00022A6B4 /* ReceitaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8908DE941A1CD2010022A6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8908DE661A1CD2010022A6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8908DE6D1A1CD2010022A6B4;
+			remoteInfo = receitasLista;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8908DE6E1A1CD2010022A6B4 /* receitasLista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = receitasLista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8908DE711A1CD2010022A6B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8908DE731A1CD2010022A6B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8908DE751A1CD2010022A6B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8908DE791A1CD2010022A6B4 /* receitasLista-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "receitasLista-Info.plist"; sourceTree = "<group>"; };
+		8908DE7B1A1CD2010022A6B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8908DE7D1A1CD2010022A6B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8908DE7F1A1CD2010022A6B4 /* receitasLista-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "receitasLista-Prefix.pch"; sourceTree = "<group>"; };
+		8908DE801A1CD2010022A6B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8908DE811A1CD2010022A6B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8908DE841A1CD2010022A6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8908DE861A1CD2010022A6B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8908DE871A1CD2010022A6B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8908DE891A1CD2010022A6B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8908DE8F1A1CD2010022A6B4 /* receitasListaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = receitasListaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8908DE901A1CD2010022A6B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8908DE981A1CD2010022A6B4 /* receitasListaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "receitasListaTests-Info.plist"; sourceTree = "<group>"; };
+		8908DE9A1A1CD2010022A6B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8908DE9C1A1CD2010022A6B4 /* receitasListaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = receitasListaTests.m; sourceTree = "<group>"; };
+		8908DEA61A1CD2900022A6B4 /* Receita.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receita.h; sourceTree = "<group>"; };
+		8908DEA71A1CD2900022A6B4 /* Receita.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receita.m; sourceTree = "<group>"; };
+		8908DEA91A1CD5DF0022A6B4 /* receita6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = receita6.jpeg; sourceTree = "<group>"; };
+		8908DEAB1A1CD6890022A6B4 /* receita5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = receita5.jpg; sourceTree = "<group>"; };
+		8908DEAD1A1CD6930022A6B4 /* receita1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = receita1.jpg; sourceTree = "<group>"; };
+		8908DEAE1A1CD6930022A6B4 /* receita2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = receita2.jpg; sourceTree = "<group>"; };
+		8908DEAF1A1CD6930022A6B4 /* receita3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = receita3.jpg; sourceTree = "<group>"; };
+		8908DEB01A1CD6930022A6B4 /* receita4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = receita4.jpg; sourceTree = "<group>"; };
+		8908DEB51A1CD9E00022A6B4 /* ReceitaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceitaViewController.h; sourceTree = "<group>"; };
+		8908DEB61A1CD9E00022A6B4 /* ReceitaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceitaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8908DE6B1A1CD2010022A6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8908DE741A1CD2010022A6B4 /* CoreGraphics.framework in Frameworks */,
+				8908DE761A1CD2010022A6B4 /* UIKit.framework in Frameworks */,
+				8908DE721A1CD2010022A6B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8908DE8C1A1CD2010022A6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8908DE911A1CD2010022A6B4 /* XCTest.framework in Frameworks */,
+				8908DE931A1CD2010022A6B4 /* UIKit.framework in Frameworks */,
+				8908DE921A1CD2010022A6B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8908DE651A1CD2010022A6B4 = {
+			isa = PBXGroup;
+			children = (
+				8908DE771A1CD2010022A6B4 /* receitasLista */,
+				8908DE961A1CD2010022A6B4 /* receitasListaTests */,
+				8908DE701A1CD2010022A6B4 /* Frameworks */,
+				8908DE6F1A1CD2010022A6B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8908DE6F1A1CD2010022A6B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8908DE6E1A1CD2010022A6B4 /* receitasLista.app */,
+				8908DE8F1A1CD2010022A6B4 /* receitasListaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8908DE701A1CD2010022A6B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8908DE711A1CD2010022A6B4 /* Foundation.framework */,
+				8908DE731A1CD2010022A6B4 /* CoreGraphics.framework */,
+				8908DE751A1CD2010022A6B4 /* UIKit.framework */,
+				8908DE901A1CD2010022A6B4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8908DE771A1CD2010022A6B4 /* receitasLista */ = {
+			isa = PBXGroup;
+			children = (
+				8908DEB51A1CD9E00022A6B4 /* ReceitaViewController.h */,
+				8908DEB61A1CD9E00022A6B4 /* ReceitaViewController.m */,
+				8908DEA61A1CD2900022A6B4 /* Receita.h */,
+				8908DEA71A1CD2900022A6B4 /* Receita.m */,
+				8908DE801A1CD2010022A6B4 /* AppDelegate.h */,
+				8908DE811A1CD2010022A6B4 /* AppDelegate.m */,
+				8908DE831A1CD2010022A6B4 /* Main.storyboard */,
+				8908DE861A1CD2010022A6B4 /* ViewController.h */,
+				8908DE871A1CD2010022A6B4 /* ViewController.m */,
+				8908DE891A1CD2010022A6B4 /* Images.xcassets */,
+				8908DE781A1CD2010022A6B4 /* Supporting Files */,
+			);
+			path = receitasLista;
+			sourceTree = "<group>";
+		};
+		8908DE781A1CD2010022A6B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8908DEAD1A1CD6930022A6B4 /* receita1.jpg */,
+				8908DEAE1A1CD6930022A6B4 /* receita2.jpg */,
+				8908DEAF1A1CD6930022A6B4 /* receita3.jpg */,
+				8908DEB01A1CD6930022A6B4 /* receita4.jpg */,
+				8908DEAB1A1CD6890022A6B4 /* receita5.jpg */,
+				8908DEA91A1CD5DF0022A6B4 /* receita6.jpeg */,
+				8908DE791A1CD2010022A6B4 /* receitasLista-Info.plist */,
+				8908DE7A1A1CD2010022A6B4 /* InfoPlist.strings */,
+				8908DE7D1A1CD2010022A6B4 /* main.m */,
+				8908DE7F1A1CD2010022A6B4 /* receitasLista-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8908DE961A1CD2010022A6B4 /* receitasListaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8908DE9C1A1CD2010022A6B4 /* receitasListaTests.m */,
+				8908DE971A1CD2010022A6B4 /* Supporting Files */,
+			);
+			path = receitasListaTests;
+			sourceTree = "<group>";
+		};
+		8908DE971A1CD2010022A6B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8908DE981A1CD2010022A6B4 /* receitasListaTests-Info.plist */,
+				8908DE991A1CD2010022A6B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8908DE6D1A1CD2010022A6B4 /* receitasLista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8908DEA01A1CD2010022A6B4 /* Build configuration list for PBXNativeTarget "receitasLista" */;
+			buildPhases = (
+				8908DE6A1A1CD2010022A6B4 /* Sources */,
+				8908DE6B1A1CD2010022A6B4 /* Frameworks */,
+				8908DE6C1A1CD2010022A6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = receitasLista;
+			productName = receitasLista;
+			productReference = 8908DE6E1A1CD2010022A6B4 /* receitasLista.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8908DE8E1A1CD2010022A6B4 /* receitasListaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8908DEA31A1CD2010022A6B4 /* Build configuration list for PBXNativeTarget "receitasListaTests" */;
+			buildPhases = (
+				8908DE8B1A1CD2010022A6B4 /* Sources */,
+				8908DE8C1A1CD2010022A6B4 /* Frameworks */,
+				8908DE8D1A1CD2010022A6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8908DE951A1CD2010022A6B4 /* PBXTargetDependency */,
+			);
+			name = receitasListaTests;
+			productName = receitasListaTests;
+			productReference = 8908DE8F1A1CD2010022A6B4 /* receitasListaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8908DE661A1CD2010022A6B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BEPiD;
+				TargetAttributes = {
+					8908DE8E1A1CD2010022A6B4 = {
+						TestTargetID = 8908DE6D1A1CD2010022A6B4;
+					};
+				};
+			};
+			buildConfigurationList = 8908DE691A1CD2010022A6B4 /* Build configuration list for PBXProject "receitasLista" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8908DE651A1CD2010022A6B4;
+			productRefGroup = 8908DE6F1A1CD2010022A6B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8908DE6D1A1CD2010022A6B4 /* receitasLista */,
+				8908DE8E1A1CD2010022A6B4 /* receitasListaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8908DE6C1A1CD2010022A6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8908DE8A1A1CD2010022A6B4 /* Images.xcassets in Resources */,
+				8908DEB41A1CD6930022A6B4 /* receita4.jpg in Resources */,
+				8908DE7C1A1CD2010022A6B4 /* InfoPlist.strings in Resources */,
+				8908DEAA1A1CD5DF0022A6B4 /* receita6.jpeg in Resources */,
+				8908DEB31A1CD6930022A6B4 /* receita3.jpg in Resources */,
+				8908DEB21A1CD6930022A6B4 /* receita2.jpg in Resources */,
+				8908DE851A1CD2010022A6B4 /* Main.storyboard in Resources */,
+				8908DEAC1A1CD6890022A6B4 /* receita5.jpg in Resources */,
+				8908DEB11A1CD6930022A6B4 /* receita1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8908DE8D1A1CD2010022A6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8908DE9B1A1CD2010022A6B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8908DE6A1A1CD2010022A6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8908DE881A1CD2010022A6B4 /* ViewController.m in Sources */,
+				8908DEB71A1CD9E00022A6B4 /* ReceitaViewController.m in Sources */,
+				8908DEA81A1CD2900022A6B4 /* Receita.m in Sources */,
+				8908DE821A1CD2010022A6B4 /* AppDelegate.m in Sources */,
+				8908DE7E1A1CD2010022A6B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8908DE8B1A1CD2010022A6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8908DE9D1A1CD2010022A6B4 /* receitasListaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8908DE951A1CD2010022A6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8908DE6D1A1CD2010022A6B4 /* receitasLista */;
+			targetProxy = 8908DE941A1CD2010022A6B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8908DE7A1A1CD2010022A6B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8908DE7B1A1CD2010022A6B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8908DE831A1CD2010022A6B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8908DE841A1CD2010022A6B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8908DE991A1CD2010022A6B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8908DE9A1A1CD2010022A6B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8908DE9E1A1CD2010022A6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8908DE9F1A1CD2010022A6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8908DEA11A1CD2010022A6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "receitasLista/receitasLista-Prefix.pch";
+				INFOPLIST_FILE = "receitasLista/receitasLista-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8908DEA21A1CD2010022A6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "receitasLista/receitasLista-Prefix.pch";
+				INFOPLIST_FILE = "receitasLista/receitasLista-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8908DEA41A1CD2010022A6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/receitasLista.app/receitasLista";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "receitasLista/receitasLista-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "receitasListaTests/receitasListaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8908DEA51A1CD2010022A6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/receitasLista.app/receitasLista";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "receitasLista/receitasLista-Prefix.pch";
+				INFOPLIST_FILE = "receitasListaTests/receitasListaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8908DE691A1CD2010022A6B4 /* Build configuration list for PBXProject "receitasLista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8908DE9E1A1CD2010022A6B4 /* Debug */,
+				8908DE9F1A1CD2010022A6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8908DEA01A1CD2010022A6B4 /* Build configuration list for PBXNativeTarget "receitasLista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8908DEA11A1CD2010022A6B4 /* Debug */,
+				8908DEA21A1CD2010022A6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8908DEA31A1CD2010022A6B4 /* Build configuration list for PBXNativeTarget "receitasListaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8908DEA41A1CD2010022A6B4 /* Debug */,
+				8908DEA51A1CD2010022A6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8908DE661A1CD2010022A6B4 /* Project object */;
+}

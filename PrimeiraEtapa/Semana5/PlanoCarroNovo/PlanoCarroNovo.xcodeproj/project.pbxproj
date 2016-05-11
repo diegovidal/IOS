@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891045421A1227B00042D964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891045411A1227B00042D964 /* Foundation.framework */; };
+		891045441A1227B00042D964 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891045431A1227B00042D964 /* CoreGraphics.framework */; };
+		891045461A1227B00042D964 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891045451A1227B00042D964 /* UIKit.framework */; };
+		8910454C1A1227B00042D964 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8910454A1A1227B00042D964 /* InfoPlist.strings */; };
+		8910454E1A1227B00042D964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8910454D1A1227B00042D964 /* main.m */; };
+		891045521A1227B00042D964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 891045511A1227B00042D964 /* AppDelegate.m */; };
+		891045551A1227B00042D964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891045531A1227B00042D964 /* Main.storyboard */; };
+		891045581A1227B00042D964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891045571A1227B00042D964 /* ViewController.m */; };
+		8910455A1A1227B00042D964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891045591A1227B00042D964 /* Images.xcassets */; };
+		891045611A1227B10042D964 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891045601A1227B10042D964 /* XCTest.framework */; };
+		891045621A1227B10042D964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891045411A1227B00042D964 /* Foundation.framework */; };
+		891045631A1227B10042D964 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891045451A1227B00042D964 /* UIKit.framework */; };
+		8910456B1A1227B10042D964 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 891045691A1227B10042D964 /* InfoPlist.strings */; };
+		8910456D1A1227B10042D964 /* PlanoCarroNovoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8910456C1A1227B10042D964 /* PlanoCarroNovoTests.m */; };
+		891045791A1231ED0042D964 /* Camaro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 891045761A1231ED0042D964 /* Camaro.jpg */; };
+		8910457A1A1231ED0042D964 /* Carrinho_Mao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 891045771A1231ED0042D964 /* Carrinho_Mao.jpg */; };
+		8910457B1A1231ED0042D964 /* Fusca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 891045781A1231ED0042D964 /* Fusca.jpg */; };
+		8910457E1A1232700042D964 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8910457D1A1232700042D964 /* ViewController2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		891045641A1227B10042D964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891045361A1227B00042D964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8910453D1A1227B00042D964;
+			remoteInfo = PlanoCarroNovo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8910453E1A1227B00042D964 /* PlanoCarroNovo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanoCarroNovo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		891045411A1227B00042D964 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		891045431A1227B00042D964 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		891045451A1227B00042D964 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		891045491A1227B00042D964 /* PlanoCarroNovo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlanoCarroNovo-Info.plist"; sourceTree = "<group>"; };
+		8910454B1A1227B00042D964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8910454D1A1227B00042D964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8910454F1A1227B00042D964 /* PlanoCarroNovo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlanoCarroNovo-Prefix.pch"; sourceTree = "<group>"; };
+		891045501A1227B00042D964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		891045511A1227B00042D964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		891045541A1227B00042D964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		891045561A1227B00042D964 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		891045571A1227B00042D964 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		891045591A1227B00042D964 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8910455F1A1227B10042D964 /* PlanoCarroNovoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanoCarroNovoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891045601A1227B10042D964 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		891045681A1227B10042D964 /* PlanoCarroNovoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlanoCarroNovoTests-Info.plist"; sourceTree = "<group>"; };
+		8910456A1A1227B10042D964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8910456C1A1227B10042D964 /* PlanoCarroNovoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanoCarroNovoTests.m; sourceTree = "<group>"; };
+		891045761A1231ED0042D964 /* Camaro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Camaro.jpg; sourceTree = "<group>"; };
+		891045771A1231ED0042D964 /* Carrinho_Mao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carrinho_Mao.jpg; sourceTree = "<group>"; };
+		891045781A1231ED0042D964 /* Fusca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fusca.jpg; sourceTree = "<group>"; };
+		8910457C1A1232700042D964 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		8910457D1A1232700042D964 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8910453B1A1227B00042D964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891045441A1227B00042D964 /* CoreGraphics.framework in Frameworks */,
+				891045461A1227B00042D964 /* UIKit.framework in Frameworks */,
+				891045421A1227B00042D964 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8910455C1A1227B10042D964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891045611A1227B10042D964 /* XCTest.framework in Frameworks */,
+				891045631A1227B10042D964 /* UIKit.framework in Frameworks */,
+				891045621A1227B10042D964 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891045351A1227B00042D964 = {
+			isa = PBXGroup;
+			children = (
+				891045471A1227B00042D964 /* PlanoCarroNovo */,
+				891045661A1227B10042D964 /* PlanoCarroNovoTests */,
+				891045401A1227B00042D964 /* Frameworks */,
+				8910453F1A1227B00042D964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8910453F1A1227B00042D964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8910453E1A1227B00042D964 /* PlanoCarroNovo.app */,
+				8910455F1A1227B10042D964 /* PlanoCarroNovoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891045401A1227B00042D964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				891045411A1227B00042D964 /* Foundation.framework */,
+				891045431A1227B00042D964 /* CoreGraphics.framework */,
+				891045451A1227B00042D964 /* UIKit.framework */,
+				891045601A1227B10042D964 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		891045471A1227B00042D964 /* PlanoCarroNovo */ = {
+			isa = PBXGroup;
+			children = (
+				891045761A1231ED0042D964 /* Camaro.jpg */,
+				8910457C1A1232700042D964 /* ViewController2.h */,
+				8910457D1A1232700042D964 /* ViewController2.m */,
+				891045771A1231ED0042D964 /* Carrinho_Mao.jpg */,
+				891045781A1231ED0042D964 /* Fusca.jpg */,
+				891045501A1227B00042D964 /* AppDelegate.h */,
+				891045511A1227B00042D964 /* AppDelegate.m */,
+				891045531A1227B00042D964 /* Main.storyboard */,
+				891045561A1227B00042D964 /* ViewController.h */,
+				891045571A1227B00042D964 /* ViewController.m */,
+				891045591A1227B00042D964 /* Images.xcassets */,
+				891045481A1227B00042D964 /* Supporting Files */,
+			);
+			path = PlanoCarroNovo;
+			sourceTree = "<group>";
+		};
+		891045481A1227B00042D964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				891045491A1227B00042D964 /* PlanoCarroNovo-Info.plist */,
+				8910454A1A1227B00042D964 /* InfoPlist.strings */,
+				8910454D1A1227B00042D964 /* main.m */,
+				8910454F1A1227B00042D964 /* PlanoCarroNovo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		891045661A1227B10042D964 /* PlanoCarroNovoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8910456C1A1227B10042D964 /* PlanoCarroNovoTests.m */,
+				891045671A1227B10042D964 /* Supporting Files */,
+			);
+			path = PlanoCarroNovoTests;
+			sourceTree = "<group>";
+		};
+		891045671A1227B10042D964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				891045681A1227B10042D964 /* PlanoCarroNovoTests-Info.plist */,
+				891045691A1227B10042D964 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8910453D1A1227B00042D964 /* PlanoCarroNovo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891045701A1227B10042D964 /* Build configuration list for PBXNativeTarget "PlanoCarroNovo" */;
+			buildPhases = (
+				8910453A1A1227B00042D964 /* Sources */,
+				8910453B1A1227B00042D964 /* Frameworks */,
+				8910453C1A1227B00042D964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanoCarroNovo;
+			productName = PlanoCarroNovo;
+			productReference = 8910453E1A1227B00042D964 /* PlanoCarroNovo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8910455E1A1227B10042D964 /* PlanoCarroNovoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891045731A1227B10042D964 /* Build configuration list for PBXNativeTarget "PlanoCarroNovoTests" */;
+			buildPhases = (
+				8910455B1A1227B10042D964 /* Sources */,
+				8910455C1A1227B10042D964 /* Frameworks */,
+				8910455D1A1227B10042D964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891045651A1227B10042D964 /* PBXTargetDependency */,
+			);
+			name = PlanoCarroNovoTests;
+			productName = PlanoCarroNovoTests;
+			productReference = 8910455F1A1227B10042D964 /* PlanoCarroNovoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891045361A1227B00042D964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BEPiD;
+				TargetAttributes = {
+					8910455E1A1227B10042D964 = {
+						TestTargetID = 8910453D1A1227B00042D964;
+					};
+				};
+			};
+			buildConfigurationList = 891045391A1227B00042D964 /* Build configuration list for PBXProject "PlanoCarroNovo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 891045351A1227B00042D964;
+			productRefGroup = 8910453F1A1227B00042D964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8910453D1A1227B00042D964 /* PlanoCarroNovo */,
+				8910455E1A1227B10042D964 /* PlanoCarroNovoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8910453C1A1227B00042D964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8910457B1A1231ED0042D964 /* Fusca.jpg in Resources */,
+				8910457A1A1231ED0042D964 /* Carrinho_Mao.jpg in Resources */,
+				8910455A1A1227B00042D964 /* Images.xcassets in Resources */,
+				8910454C1A1227B00042D964 /* InfoPlist.strings in Resources */,
+				891045791A1231ED0042D964 /* Camaro.jpg in Resources */,
+				891045551A1227B00042D964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8910455D1A1227B10042D964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8910456B1A1227B10042D964 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8910453A1A1227B00042D964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891045581A1227B00042D964 /* ViewController.m in Sources */,
+				8910457E1A1232700042D964 /* ViewController2.m in Sources */,
+				891045521A1227B00042D964 /* AppDelegate.m in Sources */,
+				8910454E1A1227B00042D964 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8910455B1A1227B10042D964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8910456D1A1227B10042D964 /* PlanoCarroNovoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		891045651A1227B10042D964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8910453D1A1227B00042D964 /* PlanoCarroNovo */;
+			targetProxy = 891045641A1227B10042D964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8910454A1A1227B00042D964 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8910454B1A1227B00042D964 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		891045531A1227B00042D964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891045541A1227B00042D964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		891045691A1227B10042D964 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8910456A1A1227B10042D964 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8910456E1A1227B10042D964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8910456F1A1227B10042D964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		891045711A1227B10042D964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanoCarroNovo/PlanoCarroNovo-Prefix.pch";
+				INFOPLIST_FILE = "PlanoCarroNovo/PlanoCarroNovo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		891045721A1227B10042D964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanoCarroNovo/PlanoCarroNovo-Prefix.pch";
+				INFOPLIST_FILE = "PlanoCarroNovo/PlanoCarroNovo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		891045741A1227B10042D964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlanoCarroNovo.app/PlanoCarroNovo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanoCarroNovo/PlanoCarroNovo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlanoCarroNovoTests/PlanoCarroNovoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		891045751A1227B10042D964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlanoCarroNovo.app/PlanoCarroNovo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanoCarroNovo/PlanoCarroNovo-Prefix.pch";
+				INFOPLIST_FILE = "PlanoCarroNovoTests/PlanoCarroNovoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891045391A1227B00042D964 /* Build configuration list for PBXProject "PlanoCarroNovo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8910456E1A1227B10042D964 /* Debug */,
+				8910456F1A1227B10042D964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891045701A1227B10042D964 /* Build configuration list for PBXNativeTarget "PlanoCarroNovo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891045711A1227B10042D964 /* Debug */,
+				891045721A1227B10042D964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		891045731A1227B10042D964 /* Build configuration list for PBXNativeTarget "PlanoCarroNovoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891045741A1227B10042D964 /* Debug */,
+				891045751A1227B10042D964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 891045361A1227B00042D964 /* Project object */;
+}
