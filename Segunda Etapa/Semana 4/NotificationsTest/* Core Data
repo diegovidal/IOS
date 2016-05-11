@@ -1,0 +1,57 @@
+* Core Data
+
+- O Core Data é um framework nativo do iOS feito para persistir dados do seu aplicativo iOS. Ele foi feito para facilitar o uso da arquitetura MVC em seus projetos facilitando o acesso aos dados que o seu app tanto precisa e ainda dispõem de vários recursos incríveis como gerência automática de desfazer/refazer e link perfeito com o iCloud.
+
+- Para criar um projeto utilizando o CoreData no xcode é bastante simples, você precisa apenas selecionar o botão que permite o uso do mesmo, após a acão o xcode irá criar um determinado AppDelgate com características para o uso do CoreData.
+
+- Para utilizar o CoreData em sua classe você necessita apenas a importação do AppDelegate.h e usufruir de suas ferramentas, porém antes disso é necessário a criação de uma entidade através da extensão         
+.xcdatamodeld
+
+- As classes necessárias para utilizar o CoreData são:
+	NSManagedObjectContext - Que gerencia os métodos q irão tratar seus dados.
+
+	NSManagedDecription - Que definirá a entidade que será tratada.
+
+	NSManagedObject - Que é uma abstracão do objeto da respectiva entidade.
+
+	NSFetchRequest - Que retornará seus dados.
+
+	NSPredicate - Que selecionará quais os dados que serão retornados segundo determinadas características.
+
+	NSSortDescriptor - Que ordenará a seu critério os dados recebidos.
+
+
+--------------------------------------------------------------------------
+
+EntityInfo
+
+Utilizado para definir a respectiva entidade que será retornada com o FetchRequest
+
+EXEMPLO:
+	NSFetchRequest *request = [[NSFetchRequest alloc] init];
+	NSEntityDescription *entity =
+	    [NSEntityDescription entityForName:@"Employee"
+	            inManagedObjectContext:managedObjectContext];
+	[request setEntity:entity];
+    [fetchRequest setEntity:entity];
+
+No trecho de código podemos observar que primeiro há a instância dos objetos NSFetchRequest e NSEntityDescription seguido por uma junção dos dois.
+
+--------------------------------------------------------------------------
+
+Predicate
+
+Utilizado como um filtro para os seus dados, ou seja, permite que os dados retornados sigam uma determinada caracterísca segundo o quesito do desenvolvedor.
+
+EXEMPLO
+	NSFetchRequest *request = [[NSFetchRequest alloc] init];
+	NSEntityDescription *entity =
+	    [NSEntityDescription entityForName:@"Employee"
+	            inManagedObjectContext:managedObjectContext];
+	[request setEntity:entity];
+	 
+	NSPredicate *predicate =
+	    [NSPredicate predicateWithFormat:@"self == %@", targetObject];
+	[request setPredicate:predicate];
+
+No trecho de código existe a instânc
