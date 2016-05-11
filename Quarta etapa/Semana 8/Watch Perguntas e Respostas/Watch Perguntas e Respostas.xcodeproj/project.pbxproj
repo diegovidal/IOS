@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF43AAF21B4BECFA008F6299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AAF11B4BECFA008F6299 /* AppDelegate.swift */; };
+		FF43AAF41B4BECFA008F6299 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AAF31B4BECFA008F6299 /* ViewController.swift */; };
+		FF43AAF71B4BECFA008F6299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF43AAF51B4BECFA008F6299 /* Main.storyboard */; };
+		FF43AAF91B4BECFA008F6299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF43AAF81B4BECFA008F6299 /* Images.xcassets */; };
+		FF43AAFC1B4BECFA008F6299 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF43AAFA1B4BECFA008F6299 /* LaunchScreen.xib */; };
+		FF43AB081B4BECFA008F6299 /* Watch_Perguntas_e_RespostasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB071B4BECFA008F6299 /* Watch_Perguntas_e_RespostasTests.swift */; };
+		FF43AB1B1B4BED08008F6299 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB1A1B4BED08008F6299 /* InterfaceController.swift */; };
+		FF43AB1D1B4BED08008F6299 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB1C1B4BED08008F6299 /* NotificationController.swift */; };
+		FF43AB1F1B4BED08008F6299 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB1E1B4BED08008F6299 /* GlanceController.swift */; };
+		FF43AB211B4BED08008F6299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB201B4BED08008F6299 /* Images.xcassets */; };
+		FF43AB251B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB241B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App.app */; };
+		FF43AB2D1B4BED08008F6299 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB2B1B4BED08008F6299 /* Interface.storyboard */; };
+		FF43AB2F1B4BED08008F6299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB2E1B4BED08008F6299 /* Images.xcassets */; };
+		FF43AB321B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF43AB151B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF43AB3D1B4BF3F7008F6299 /* Pergunta2InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB3C1B4BF3F7008F6299 /* Pergunta2InterfaceController.swift */; };
+		FF43AB3F1B4BF403008F6299 /* Pergunta3InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB3E1B4BF403008F6299 /* Pergunta3InterfaceController.swift */; };
+		FF43AB411B4BF40E008F6299 /* Pergunta4InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB401B4BF40E008F6299 /* Pergunta4InterfaceController.swift */; };
+		FF43AB431B4BF41D008F6299 /* Pergunta5InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB421B4BF41D008F6299 /* Pergunta5InterfaceController.swift */; };
+		FF43AB451B4C008B008F6299 /* ScoresInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB441B4C008B008F6299 /* ScoresInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF43AB021B4BECFA008F6299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF43AAE41B4BECF9008F6299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF43AAEB1B4BECF9008F6299;
+			remoteInfo = "Watch Perguntas e Respostas";
+		};
+		FF43AB261B4BED08008F6299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF43AAE41B4BECF9008F6299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF43AB231B4BED08008F6299;
+			remoteInfo = "Watch Perguntas e Respostas WatchKit App";
+		};
+		FF43AB301B4BED08008F6299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF43AAE41B4BECF9008F6299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF43AB141B4BED08008F6299;
+			remoteInfo = "Watch Perguntas e Respostas WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF43AB391B4BED08008F6299 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FF43AB321B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF43AAEC1B4BECF9008F6299 /* Watch Perguntas e Respostas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Perguntas e Respostas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43AAF01B4BECFA008F6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43AAF11B4BECFA008F6299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF43AAF31B4BECFA008F6299 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF43AAF61B4BECFA008F6299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF43AAF81B4BECFA008F6299 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF43AAFB1B4BECFA008F6299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF43AB011B4BECFA008F6299 /* Watch Perguntas e RespostasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watch Perguntas e RespostasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43AB061B4BECFA008F6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43AB071B4BECFA008F6299 /* Watch_Perguntas_e_RespostasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch_Perguntas_e_RespostasTests.swift; sourceTree = "<group>"; };
+		FF43AB151B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Perguntas e Respostas WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43AB181B4BED08008F6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43AB191B4BED08008F6299 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FF43AB1A1B4BED08008F6299 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FF43AB1C1B4BED08008F6299 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FF43AB1E1B4BED08008F6299 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		FF43AB201B4BED08008F6299 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF43AB241B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Perguntas e Respostas WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43AB2A1B4BED08008F6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43AB2C1B4BED08008F6299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FF43AB2E1B4BED08008F6299 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF43AB3C1B4BF3F7008F6299 /* Pergunta2InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pergunta2InterfaceController.swift; sourceTree = "<group>"; };
+		FF43AB3E1B4BF403008F6299 /* Pergunta3InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pergunta3InterfaceController.swift; sourceTree = "<group>"; };
+		FF43AB401B4BF40E008F6299 /* Pergunta4InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pergunta4InterfaceController.swift; sourceTree = "<group>"; };
+		FF43AB421B4BF41D008F6299 /* Pergunta5InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pergunta5InterfaceController.swift; sourceTree = "<group>"; };
+		FF43AB441B4C008B008F6299 /* ScoresInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF43AAE91B4BECF9008F6299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AAFE1B4BECFA008F6299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB121B4BED08008F6299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF43AAE31B4BECF9008F6299 = {
+			isa = PBXGroup;
+			children = (
+				FF43AAEE1B4BECF9008F6299 /* Watch Perguntas e Respostas */,
+				FF43AB041B4BECFA008F6299 /* Watch Perguntas e RespostasTests */,
+				FF43AB161B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension */,
+				FF43AB281B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App */,
+				FF43AAED1B4BECF9008F6299 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF43AAED1B4BECF9008F6299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AAEC1B4BECF9008F6299 /* Watch Perguntas e Respostas.app */,
+				FF43AB011B4BECFA008F6299 /* Watch Perguntas e RespostasTests.xctest */,
+				FF43AB151B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension.appex */,
+				FF43AB241B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF43AAEE1B4BECF9008F6299 /* Watch Perguntas e Respostas */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AAF11B4BECFA008F6299 /* AppDelegate.swift */,
+				FF43AAF31B4BECFA008F6299 /* ViewController.swift */,
+				FF43AAF51B4BECFA008F6299 /* Main.storyboard */,
+				FF43AAF81B4BECFA008F6299 /* Images.xcassets */,
+				FF43AAFA1B4BECFA008F6299 /* LaunchScreen.xib */,
+				FF43AAEF1B4BECF9008F6299 /* Supporting Files */,
+			);
+			path = "Watch Perguntas e Respostas";
+			sourceTree = "<group>";
+		};
+		FF43AAEF1B4BECF9008F6299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AAF01B4BECFA008F6299 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF43AB041B4BECFA008F6299 /* Watch Perguntas e RespostasTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB071B4BECFA008F6299 /* Watch_Perguntas_e_RespostasTests.swift */,
+				FF43AB051B4BECFA008F6299 /* Supporting Files */,
+			);
+			path = "Watch Perguntas e RespostasTests";
+			sourceTree = "<group>";
+		};
+		FF43AB051B4BECFA008F6299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB061B4BECFA008F6299 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF43AB161B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB3B1B4BF378008F6299 /* Perguntas InterfaceControllers */,
+				FF43AB1C1B4BED08008F6299 /* NotificationController.swift */,
+				FF43AB1E1B4BED08008F6299 /* GlanceController.swift */,
+				FF43AB201B4BED08008F6299 /* Images.xcassets */,
+				FF43AB171B4BED08008F6299 /* Supporting Files */,
+			);
+			path = "Watch Perguntas e Respostas WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FF43AB171B4BED08008F6299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB181B4BED08008F6299 /* Info.plist */,
+				FF43AB191B4BED08008F6299 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF43AB281B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB2B1B4BED08008F6299 /* Interface.storyboard */,
+				FF43AB2E1B4BED08008F6299 /* Images.xcassets */,
+				FF43AB291B4BED08008F6299 /* Supporting Files */,
+			);
+			path = "Watch Perguntas e Respostas WatchKit App";
+			sourceTree = "<group>";
+		};
+		FF43AB291B4BED08008F6299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB2A1B4BED08008F6299 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF43AB3B1B4BF378008F6299 /* Perguntas InterfaceControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB1A1B4BED08008F6299 /* InterfaceController.swift */,
+				FF43AB3C1B4BF3F7008F6299 /* Pergunta2InterfaceController.swift */,
+				FF43AB3E1B4BF403008F6299 /* Pergunta3InterfaceController.swift */,
+				FF43AB401B4BF40E008F6299 /* Pergunta4InterfaceController.swift */,
+				FF43AB421B4BF41D008F6299 /* Pergunta5InterfaceController.swift */,
+				FF43AB441B4C008B008F6299 /* ScoresInterfaceController.swift */,
+			);
+			name = "Perguntas InterfaceControllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF43AAEB1B4BECF9008F6299 /* Watch Perguntas e Respostas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF43AB0B1B4BECFA008F6299 /* Build configuration list for PBXNativeTarget "Watch Perguntas e Respostas" */;
+			buildPhases = (
+				FF43AAE81B4BECF9008F6299 /* Sources */,
+				FF43AAE91B4BECF9008F6299 /* Frameworks */,
+				FF43AAEA1B4BECF9008F6299 /* Resources */,
+				FF43AB391B4BED08008F6299 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF43AB311B4BED08008F6299 /* PBXTargetDependency */,
+			);
+			name = "Watch Perguntas e Respostas";
+			productName = "Watch Perguntas e Respostas";
+			productReference = FF43AAEC1B4BECF9008F6299 /* Watch Perguntas e Respostas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF43AB001B4BECFA008F6299 /* Watch Perguntas e RespostasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF43AB0E1B4BECFA008F6299 /* Build configuration list for PBXNativeTarget "Watch Perguntas e RespostasTests" */;
+			buildPhases = (
+				FF43AAFD1B4BECFA008F6299 /* Sources */,
+				FF43AAFE1B4BECFA008F6299 /* Frameworks */,
+				FF43AAFF1B4BECFA008F6299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF43AB031B4BECFA008F6299 /* PBXTargetDependency */,
+			);
+			name = "Watch Perguntas e RespostasTests";
+			productName = "Watch Perguntas e RespostasTests";
+			productReference = FF43AB011B4BECFA008F6299 /* Watch Perguntas e RespostasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF43AB141B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF43AB361B4BED08008F6299 /* Build configuration list for PBXNativeTarget "Watch Perguntas e Respostas WatchKit Extension" */;
+			buildPhases = (
+				FF43AB111B4BED08008F6299 /* Sources */,
+				FF43AB121B4BED08008F6299 /* Frameworks */,
+				FF43AB131B4BED08008F6299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF43AB271B4BED08008F6299 /* PBXTargetDependency */,
+			);
+			name = "Watch Perguntas e Respostas WatchKit Extension";
+			productName = "Watch Perguntas e Respostas WatchKit Extension";
+			productReference = FF43AB151B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FF43AB231B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF43AB331B4BED08008F6299 /* Build configuration list for PBXNativeTarget "Watch Perguntas e Respostas WatchKit App" */;
+			buildPhases = (
+				FF43AB221B4BED08008F6299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Perguntas e Respostas WatchKit App";
+			productName = "Watch Perguntas e Respostas WatchKit App";
+			productReference = FF43AB241B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF43AAE41B4BECF9008F6299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = bepid;
+				TargetAttributes = {
+					FF43AAEB1B4BECF9008F6299 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FF43AB001B4BECFA008F6299 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FF43AAEB1B4BECF9008F6299;
+					};
+					FF43AB141B4BED08008F6299 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FF43AB231B4BED08008F6299 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = FF43AAE71B4BECF9008F6299 /* Build configuration list for PBXProject "Watch Perguntas e Respostas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF43AAE31B4BECF9008F6299;
+			productRefGroup = FF43AAED1B4BECF9008F6299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF43AAEB1B4BECF9008F6299 /* Watch Perguntas e Respostas */,
+				FF43AB001B4BECFA008F6299 /* Watch Perguntas e RespostasTests */,
+				FF43AB141B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension */,
+				FF43AB231B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF43AAEA1B4BECF9008F6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AAF71B4BECFA008F6299 /* Main.storyboard in Resources */,
+				FF43AAFC1B4BECFA008F6299 /* LaunchScreen.xib in Resources */,
+				FF43AAF91B4BECFA008F6299 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AAFF1B4BECFA008F6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB131B4BED08008F6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AB251B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App.app in Resources */,
+				FF43AB211B4BED08008F6299 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB221B4BED08008F6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AB2D1B4BED08008F6299 /* Interface.storyboard in Resources */,
+				FF43AB2F1B4BED08008F6299 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF43AAE81B4BECF9008F6299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AAF41B4BECFA008F6299 /* ViewController.swift in Sources */,
+				FF43AAF21B4BECFA008F6299 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AAFD1B4BECFA008F6299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AB081B4BECFA008F6299 /* Watch_Perguntas_e_RespostasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB111B4BED08008F6299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AB1D1B4BED08008F6299 /* NotificationController.swift in Sources */,
+				FF43AB1B1B4BED08008F6299 /* InterfaceController.swift in Sources */,
+				FF43AB3F1B4BF403008F6299 /* Pergunta3InterfaceController.swift in Sources */,
+				FF43AB431B4BF41D008F6299 /* Pergunta5InterfaceController.swift in Sources */,
+				FF43AB3D1B4BF3F7008F6299 /* Pergunta2InterfaceController.swift in Sources */,
+				FF43AB411B4BF40E008F6299 /* Pergunta4InterfaceController.swift in Sources */,
+				FF43AB451B4C008B008F6299 /* ScoresInterfaceController.swift in Sources */,
+				FF43AB1F1B4BED08008F6299 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF43AB031B4BECFA008F6299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF43AAEB1B4BECF9008F6299 /* Watch Perguntas e Respostas */;
+			targetProxy = FF43AB021B4BECFA008F6299 /* PBXContainerItemProxy */;
+		};
+		FF43AB271B4BED08008F6299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF43AB231B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit App */;
+			targetProxy = FF43AB261B4BED08008F6299 /* PBXContainerItemProxy */;
+		};
+		FF43AB311B4BED08008F6299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF43AB141B4BED08008F6299 /* Watch Perguntas e Respostas WatchKit Extension */;
+			targetProxy = FF43AB301B4BED08008F6299 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF43AAF51B4BECFA008F6299 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF43AAF61B4BECFA008F6299 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF43AAFA1B4BECFA008F6299 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF43AAFB1B4BECFA008F6299 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FF43AB2B1B4BED08008F6299 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF43AB2C1B4BED08008F6299 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF43AB091B4BECFA008F6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF43AB0A1B4BECFA008F6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF43AB0C1B4BECFA008F6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Watch Perguntas e Respostas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF43AB0D1B4BECFA008F6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Watch Perguntas e Respostas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF43AB0F1B4BECFA008F6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch Perguntas e RespostasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Perguntas e Respostas.app/Watch Perguntas e Respostas";
+			};
+			name = Debug;
+		};
+		FF43AB101B4BECFA008F6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch Perguntas e RespostasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Perguntas e Respostas.app/Watch Perguntas e Respostas";
+			};
+			name = Release;
+		};
+		FF43AB341B4BED08008F6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Watch_Perguntas_e_Respostas_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch Perguntas e Respostas WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FF43AB351B4BED08008F6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Watch_Perguntas_e_Respostas_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch Perguntas e Respostas WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FF43AB371B4BED08008F6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch Perguntas e Respostas WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF43AB381B4BED08008F6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Watch Perguntas e Respostas WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF43AAE71B4BECF9008F6299 /* Build configuration list for PBXProject "Watch Perguntas e Respostas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AB091B4BECFA008F6299 /* Debug */,
+				FF43AB0A1B4BECFA008F6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF43AB0B1B4BECFA008F6299 /* Build configuration list for PBXNativeTarget "Watch Perguntas e Respostas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AB0C1B4BECFA008F6299 /* Debug */,
+				FF43AB0D1B4BECFA008F6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF43AB0E1B4BECFA008F6299 /* Build configuration list for PBXNativeTarget "Watch Perguntas e RespostasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AB0F1B4BECFA008F6299 /* Debug */,
+				FF43AB101B4BECFA008F6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF43AB331B4BED08008F6299 /* Build configuration list for PBXNativeTarget "Watch Perguntas e Respostas WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AB341B4BED08008F6299 /* Debug */,
+				FF43AB351B4BED08008F6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF43AB361B4BED08008F6299 /* Build configuration list for PBXNativeTarget "Watch Perguntas e Respostas WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AB371B4BED08008F6299 /* Debug */,
+				FF43AB381B4BED08008F6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF43AAE41B4BECF9008F6299 /* Project object */;
+}

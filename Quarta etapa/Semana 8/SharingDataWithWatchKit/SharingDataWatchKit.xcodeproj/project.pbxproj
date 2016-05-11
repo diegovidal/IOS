@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A037FD8B1B4C10A10051CB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037FD8A1B4C10A10051CB75 /* AppDelegate.swift */; };
+		A037FD8D1B4C10A10051CB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037FD8C1B4C10A10051CB75 /* ViewController.swift */; };
+		A037FD901B4C10A10051CB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A037FD8E1B4C10A10051CB75 /* Main.storyboard */; };
+		A037FD921B4C10A10051CB75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A037FD911B4C10A10051CB75 /* Images.xcassets */; };
+		A037FD951B4C10A10051CB75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A037FD931B4C10A10051CB75 /* LaunchScreen.xib */; };
+		A037FDA11B4C10A20051CB75 /* SharingDataWatchKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037FDA01B4C10A20051CB75 /* SharingDataWatchKitTests.swift */; };
+		A037FDB41B4C10AE0051CB75 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037FDB31B4C10AE0051CB75 /* InterfaceController.swift */; };
+		A037FDB61B4C10AE0051CB75 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037FDB51B4C10AE0051CB75 /* NotificationController.swift */; };
+		A037FDB81B4C10AE0051CB75 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037FDB71B4C10AE0051CB75 /* GlanceController.swift */; };
+		A037FDBA1B4C10AE0051CB75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A037FDB91B4C10AE0051CB75 /* Images.xcassets */; };
+		A037FDBE1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A037FDBD1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App.app */; };
+		A037FDC61B4C10AE0051CB75 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A037FDC41B4C10AE0051CB75 /* Interface.storyboard */; };
+		A037FDC81B4C10AE0051CB75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A037FDC71B4C10AE0051CB75 /* Images.xcassets */; };
+		A037FDCB1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A037FDAE1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A037FDD61B4C152A0051CB75 /* DataToShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037FDD51B4C152A0051CB75 /* DataToShare.swift */; };
+		A037FDD81B4C1B530051CB75 /* DataToReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037FDD71B4C1B530051CB75 /* DataToReceive.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A037FD9B1B4C10A20051CB75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A037FD7D1B4C10A10051CB75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A037FD841B4C10A10051CB75;
+			remoteInfo = SharingDataWatchKit;
+		};
+		A037FDBF1B4C10AE0051CB75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A037FD7D1B4C10A10051CB75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A037FDBC1B4C10AE0051CB75;
+			remoteInfo = "SharingDataWatchKit WatchKit App";
+		};
+		A037FDC91B4C10AE0051CB75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A037FD7D1B4C10A10051CB75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A037FDAD1B4C10AE0051CB75;
+			remoteInfo = "SharingDataWatchKit WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A037FDD21B4C10AE0051CB75 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A037FDCB1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A037FD851B4C10A10051CB75 /* SharingDataWatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharingDataWatchKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A037FD891B4C10A10051CB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A037FD8A1B4C10A10051CB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A037FD8C1B4C10A10051CB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A037FD8F1B4C10A10051CB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A037FD911B4C10A10051CB75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A037FD941B4C10A10051CB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A037FD9A1B4C10A20051CB75 /* SharingDataWatchKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharingDataWatchKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A037FD9F1B4C10A20051CB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A037FDA01B4C10A20051CB75 /* SharingDataWatchKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingDataWatchKitTests.swift; sourceTree = "<group>"; };
+		A037FDAE1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SharingDataWatchKit WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A037FDB11B4C10AE0051CB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A037FDB21B4C10AE0051CB75 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A037FDB31B4C10AE0051CB75 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A037FDB51B4C10AE0051CB75 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A037FDB71B4C10AE0051CB75 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		A037FDB91B4C10AE0051CB75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A037FDBD1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SharingDataWatchKit WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A037FDC31B4C10AE0051CB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A037FDC51B4C10AE0051CB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A037FDC71B4C10AE0051CB75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A037FDD31B4C110D0051CB75 /* SharingDataWatchKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SharingDataWatchKit.entitlements; sourceTree = "<group>"; };
+		A037FDD41B4C142D0051CB75 /* SharingDataWatchKit WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SharingDataWatchKit WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		A037FDD51B4C152A0051CB75 /* DataToShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataToShare.swift; sourceTree = "<group>"; };
+		A037FDD71B4C1B530051CB75 /* DataToReceive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataToReceive.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A037FD821B4C10A10051CB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A037FD971B4C10A20051CB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A037FDAB1B4C10AE0051CB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A037FD7C1B4C10A10051CB75 = {
+			isa = PBXGroup;
+			children = (
+				A037FD871B4C10A10051CB75 /* SharingDataWatchKit */,
+				A037FD9D1B4C10A20051CB75 /* SharingDataWatchKitTests */,
+				A037FDAF1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension */,
+				A037FDC11B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App */,
+				A037FD861B4C10A10051CB75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A037FD861B4C10A10051CB75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A037FD851B4C10A10051CB75 /* SharingDataWatchKit.app */,
+				A037FD9A1B4C10A20051CB75 /* SharingDataWatchKitTests.xctest */,
+				A037FDAE1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension.appex */,
+				A037FDBD1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A037FD871B4C10A10051CB75 /* SharingDataWatchKit */ = {
+			isa = PBXGroup;
+			children = (
+				A037FDD31B4C110D0051CB75 /* SharingDataWatchKit.entitlements */,
+				A037FD8A1B4C10A10051CB75 /* AppDelegate.swift */,
+				A037FD8C1B4C10A10051CB75 /* ViewController.swift */,
+				A037FDD71B4C1B530051CB75 /* DataToReceive.swift */,
+				A037FD8E1B4C10A10051CB75 /* Main.storyboard */,
+				A037FD911B4C10A10051CB75 /* Images.xcassets */,
+				A037FD931B4C10A10051CB75 /* LaunchScreen.xib */,
+				A037FD881B4C10A10051CB75 /* Supporting Files */,
+			);
+			path = SharingDataWatchKit;
+			sourceTree = "<group>";
+		};
+		A037FD881B4C10A10051CB75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A037FD891B4C10A10051CB75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A037FD9D1B4C10A20051CB75 /* SharingDataWatchKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A037FDA01B4C10A20051CB75 /* SharingDataWatchKitTests.swift */,
+				A037FD9E1B4C10A20051CB75 /* Supporting Files */,
+			);
+			path = SharingDataWatchKitTests;
+			sourceTree = "<group>";
+		};
+		A037FD9E1B4C10A20051CB75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A037FD9F1B4C10A20051CB75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A037FDAF1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A037FDD41B4C142D0051CB75 /* SharingDataWatchKit WatchKit Extension.entitlements */,
+				A037FDB31B4C10AE0051CB75 /* InterfaceController.swift */,
+				A037FDB51B4C10AE0051CB75 /* NotificationController.swift */,
+				A037FDB71B4C10AE0051CB75 /* GlanceController.swift */,
+				A037FDD51B4C152A0051CB75 /* DataToShare.swift */,
+				A037FDB91B4C10AE0051CB75 /* Images.xcassets */,
+				A037FDB01B4C10AE0051CB75 /* Supporting Files */,
+			);
+			path = "SharingDataWatchKit WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A037FDB01B4C10AE0051CB75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A037FDB11B4C10AE0051CB75 /* Info.plist */,
+				A037FDB21B4C10AE0051CB75 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A037FDC11B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A037FDC41B4C10AE0051CB75 /* Interface.storyboard */,
+				A037FDC71B4C10AE0051CB75 /* Images.xcassets */,
+				A037FDC21B4C10AE0051CB75 /* Supporting Files */,
+			);
+			path = "SharingDataWatchKit WatchKit App";
+			sourceTree = "<group>";
+		};
+		A037FDC21B4C10AE0051CB75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A037FDC31B4C10AE0051CB75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A037FD841B4C10A10051CB75 /* SharingDataWatchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A037FDA41B4C10A20051CB75 /* Build configuration list for PBXNativeTarget "SharingDataWatchKit" */;
+			buildPhases = (
+				A037FD811B4C10A10051CB75 /* Sources */,
+				A037FD821B4C10A10051CB75 /* Frameworks */,
+				A037FD831B4C10A10051CB75 /* Resources */,
+				A037FDD21B4C10AE0051CB75 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A037FDCA1B4C10AE0051CB75 /* PBXTargetDependency */,
+			);
+			name = SharingDataWatchKit;
+			productName = SharingDataWatchKit;
+			productReference = A037FD851B4C10A10051CB75 /* SharingDataWatchKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A037FD991B4C10A20051CB75 /* SharingDataWatchKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A037FDA71B4C10A20051CB75 /* Build configuration list for PBXNativeTarget "SharingDataWatchKitTests" */;
+			buildPhases = (
+				A037FD961B4C10A20051CB75 /* Sources */,
+				A037FD971B4C10A20051CB75 /* Frameworks */,
+				A037FD981B4C10A20051CB75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A037FD9C1B4C10A20051CB75 /* PBXTargetDependency */,
+			);
+			name = SharingDataWatchKitTests;
+			productName = SharingDataWatchKitTests;
+			productReference = A037FD9A1B4C10A20051CB75 /* SharingDataWatchKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A037FDAD1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A037FDCF1B4C10AE0051CB75 /* Build configuration list for PBXNativeTarget "SharingDataWatchKit WatchKit Extension" */;
+			buildPhases = (
+				A037FDAA1B4C10AE0051CB75 /* Sources */,
+				A037FDAB1B4C10AE0051CB75 /* Frameworks */,
+				A037FDAC1B4C10AE0051CB75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A037FDC01B4C10AE0051CB75 /* PBXTargetDependency */,
+			);
+			name = "SharingDataWatchKit WatchKit Extension";
+			productName = "SharingDataWatchKit WatchKit Extension";
+			productReference = A037FDAE1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A037FDBC1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A037FDCC1B4C10AE0051CB75 /* Build configuration list for PBXNativeTarget "SharingDataWatchKit WatchKit App" */;
+			buildPhases = (
+				A037FDBB1B4C10AE0051CB75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SharingDataWatchKit WatchKit App";
+			productName = "SharingDataWatchKit WatchKit App";
+			productReference = A037FDBD1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A037FD7D1B4C10A10051CB75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Diego Vidal";
+				TargetAttributes = {
+					A037FD841B4C10A10051CB75 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = S9Q88BN22A;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A037FD991B4C10A20051CB75 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A037FD841B4C10A10051CB75;
+					};
+					A037FDAD1B4C10AE0051CB75 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = S9Q88BN22A;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A037FDBC1B4C10AE0051CB75 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = A037FD801B4C10A10051CB75 /* Build configuration list for PBXProject "SharingDataWatchKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A037FD7C1B4C10A10051CB75;
+			productRefGroup = A037FD861B4C10A10051CB75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A037FD841B4C10A10051CB75 /* SharingDataWatchKit */,
+				A037FD991B4C10A20051CB75 /* SharingDataWatchKitTests */,
+				A037FDAD1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension */,
+				A037FDBC1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A037FD831B4C10A10051CB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A037FD901B4C10A10051CB75 /* Main.storyboard in Resources */,
+				A037FD951B4C10A10051CB75 /* LaunchScreen.xib in Resources */,
+				A037FD921B4C10A10051CB75 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A037FD981B4C10A20051CB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A037FDAC1B4C10AE0051CB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A037FDBE1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App.app in Resources */,
+				A037FDBA1B4C10AE0051CB75 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A037FDBB1B4C10AE0051CB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A037FDC61B4C10AE0051CB75 /* Interface.storyboard in Resources */,
+				A037FDC81B4C10AE0051CB75 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A037FD811B4C10A10051CB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A037FD8D1B4C10A10051CB75 /* ViewController.swift in Sources */,
+				A037FD8B1B4C10A10051CB75 /* AppDelegate.swift in Sources */,
+				A037FDD81B4C1B530051CB75 /* DataToReceive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A037FD961B4C10A20051CB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A037FDA11B4C10A20051CB75 /* SharingDataWatchKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A037FDAA1B4C10AE0051CB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A037FDD61B4C152A0051CB75 /* DataToShare.swift in Sources */,
+				A037FDB61B4C10AE0051CB75 /* NotificationController.swift in Sources */,
+				A037FDB41B4C10AE0051CB75 /* InterfaceController.swift in Sources */,
+				A037FDB81B4C10AE0051CB75 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A037FD9C1B4C10A20051CB75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A037FD841B4C10A10051CB75 /* SharingDataWatchKit */;
+			targetProxy = A037FD9B1B4C10A20051CB75 /* PBXContainerItemProxy */;
+		};
+		A037FDC01B4C10AE0051CB75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A037FDBC1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit App */;
+			targetProxy = A037FDBF1B4C10AE0051CB75 /* PBXContainerItemProxy */;
+		};
+		A037FDCA1B4C10AE0051CB75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A037FDAD1B4C10AE0051CB75 /* SharingDataWatchKit WatchKit Extension */;
+			targetProxy = A037FDC91B4C10AE0051CB75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A037FD8E1B4C10A10051CB75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A037FD8F1B4C10A10051CB75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A037FD931B4C10A10051CB75 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A037FD941B4C10A10051CB75 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A037FDC41B4C10AE0051CB75 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A037FDC51B4C10AE0051CB75 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A037FDA21B4C10A20051CB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A037FDA31B4C10A20051CB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A037FDA51B4C10A20051CB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SharingDataWatchKit/SharingDataWatchKit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SharingDataWatchKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A037FDA61B4C10A20051CB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SharingDataWatchKit/SharingDataWatchKit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SharingDataWatchKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A037FDA81B4C10A20051CB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharingDataWatchKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharingDataWatchKit.app/SharingDataWatchKit";
+			};
+			name = Debug;
+		};
+		A037FDA91B4C10A20051CB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharingDataWatchKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharingDataWatchKit.app/SharingDataWatchKit";
+			};
+			name = Release;
+		};
+		A037FDCD1B4C10AE0051CB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SharingDataWatchKit_WatchKit_Extension;
+				INFOPLIST_FILE = "SharingDataWatchKit WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A037FDCE1B4C10AE0051CB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SharingDataWatchKit_WatchKit_Extension;
+				INFOPLIST_FILE = "SharingDataWatchKit WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		A037FDD01B4C10AE0051CB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SharingDataWatchKit WatchKit Extension/SharingDataWatchKit WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SharingDataWatchKit WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A037FDD11B4C10AE0051CB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SharingDataWatchKit WatchKit Extension/SharingDataWatchKit WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SharingDataWatchKit WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A037FD801B4C10A10051CB75 /* Build configuration list for PBXProject "SharingDataWatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A037FDA21B4C10A20051CB75 /* Debug */,
+				A037FDA31B4C10A20051CB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A037FDA41B4C10A20051CB75 /* Build configuration list for PBXNativeTarget "SharingDataWatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A037FDA51B4C10A20051CB75 /* Debug */,
+				A037FDA61B4C10A20051CB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A037FDA71B4C10A20051CB75 /* Build configuration list for PBXNativeTarget "SharingDataWatchKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A037FDA81B4C10A20051CB75 /* Debug */,
+				A037FDA91B4C10A20051CB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A037FDCC1B4C10AE0051CB75 /* Build configuration list for PBXNativeTarget "SharingDataWatchKit WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A037FDCD1B4C10AE0051CB75 /* Debug */,
+				A037FDCE1B4C10AE0051CB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A037FDCF1B4C10AE0051CB75 /* Build configuration list for PBXNativeTarget "SharingDataWatchKit WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A037FDD01B4C10AE0051CB75 /* Debug */,
+				A037FDD11B4C10AE0051CB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A037FD7D1B4C10A10051CB75 /* Project object */;
+}

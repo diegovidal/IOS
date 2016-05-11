@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FXv-fU-fm4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="9Ef-Uk-lWN">
+            <objects>
+                <viewController id="FXv-fU-fm4" customClass="ViewController" customModule="MultipeerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8h0-Ty-vfJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="sEo-Ze-qdp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pZg-34-9uD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7p-bc-k2P">
+                                <rect key="frame" x="241" y="20" width="117" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="Rjz-lx-zI5"/>
+                                    <constraint firstAttribute="width" constant="117" id="TDb-nu-536"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Find Peers">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="findPeers" destination="FXv-fU-fm4" eventType="touchUpInside" id="4xZ-RF-15j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wS4-1S-Ddb">
+                                <rect key="frame" x="16" y="200" width="568" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="ftq-1d-WyN"/>
+                                    <constraint firstAttribute="height" constant="44" id="vi7-dF-QqD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Send Resource">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ftq-1d-WyN"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="sendImage" destination="FXv-fU-fm4" eventType="touchUpInside" id="F2J-CE-90K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh0-bc-XQ5">
+                                <rect key="frame" x="16" y="80" width="568" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="2MQ-pm-qJ9"/>
+                                    <constraint firstAttribute="height" constant="44" id="ZDA-og-sha"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Send Data">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2MQ-pm-qJ9"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="sendText" destination="FXv-fU-fm4" eventType="touchUpInside" id="ms2-mO-vjy"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PZ0-5w-sTG">
+                                <rect key="frame" x="159" y="380" width="282" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.40784313729999999" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PZ0-5w-sTG" secondAttribute="height" multiplier="281:199" id="M8P-ag-Lre"/>
+                                    <constraint firstAttribute="height" constant="200" id="qIk-45-IBr"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaD-6G-x4Y">
+                                <rect key="frame" x="16" y="138" width="568" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="etk-fX-NWL"/>
+                                    <constraint firstAttribute="height" constant="44" id="fQs-KB-30u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Start Stream">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="etk-fX-NWL"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="sendOverStream" destination="FXv-fU-fm4" eventType="touchUpInside" id="acI-Ej-82D"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gh0-bc-XQ5" firstAttribute="leading" secondItem="pZg-34-9uD" secondAttribute="leadingMargin" id="098-IS-T18"/>
+                            <constraint firstItem="K7p-bc-k2P" firstAttribute="top" secondItem="8h0-Ty-vfJ" secondAttribute="bottom" id="3yF-CN-SrY"/>
+                            <constraint firstItem="sEo-Ze-qdp" firstAttribute="top" secondItem="PZ0-5w-sTG" secondAttribute="bottom" constant="20" id="5HC-1v-fDT"/>
+                            <constraint firstItem="gh0-bc-XQ5" firstAttribute="top" secondItem="K7p-bc-k2P" secondAttribute="bottom" constant="18" id="7am-zt-grL"/>
+                            <constraint firstItem="vaD-6G-x4Y" firstAttribute="leading" secondItem="pZg-34-9uD" secondAttribute="leadingMargin" id="7jS-dz-wGj"/>
+                            <constraint firstItem="vaD-6G-x4Y" firstAttribute="top" secondItem="gh0-bc-XQ5" secondAttribute="bottom" constant="14" id="B5y-RJ-i2I"/>
+                            <constraint firstAttribute="centerX" secondItem="PZ0-5w-sTG" secondAttribute="centerX" constant="-0.5" id="Epf-wT-9sc"/>
+                            <constraint firstItem="vaD-6G-x4Y" firstAttribute="trailing" secondItem="pZg-34-9uD" secondAttribute="trailingMargin" id="V9V-xp-qBK"/>
+                            <constraint firstAttribute="centerX" secondItem="K7p-bc-k2P" secondAttribute="centerX" constant="0.5" id="dUe-ws-f6z"/>
+                            <constraint firstItem="wS4-1S-Ddb" firstAttribute="trailing" secondItem="pZg-34-9uD" secondAttribute="trailingMargin" id="h5A-Sx-Sgj"/>
+                            <constraint firstItem="gh0-bc-XQ5" firstAttribute="trailing" secondItem="pZg-34-9uD" secondAttribute="trailingMargin" id="hht-NZ-QPG"/>
+                            <constraint firstItem="wS4-1S-Ddb" firstAttribute="leading" secondItem="pZg-34-9uD" secondAttribute="leadingMargin" id="rgN-Fm-SUJ"/>
+                            <constraint firstItem="wS4-1S-Ddb" firstAttribute="top" secondItem="vaD-6G-x4Y" secondAttribute="bottom" constant="18" id="y6Q-dx-xCx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="PZ0-5w-sTG" id="9Sb-cP-Dfl"/>
+                        <outlet property="sendResourceButton" destination="wS4-1S-Ddb" id="xh0-EM-Cti"/>
+                        <outlet property="sendStreamButton" destination="vaD-6G-x4Y" id="dXh-BW-ehx"/>
+                        <outlet property="sendTextButton" destination="gh0-bc-XQ5" id="aPf-jS-JH8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JDa-o0-usH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-280" y="-388"/>
+        </scene>
+    </scenes>
+</document>

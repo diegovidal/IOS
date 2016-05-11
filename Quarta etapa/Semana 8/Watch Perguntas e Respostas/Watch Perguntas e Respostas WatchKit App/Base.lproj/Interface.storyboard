@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--pergunta1-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="pergunta1" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Watch_Perguntas_e_Respostas_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" height="62.5" alignment="left" text="Pergunta 1" textAlignment="left" numberOfLines="3" id="AIt-89-gS2">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                        <button width="1" alignment="left" title="Resposta 1" id="jHe-E7-4WU">
+                            <connections>
+                                <action selector="respostaCerta" destination="AgC-eL-Hgc" id="kQG-Dq-TWw"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Resposta 2" id="PzR-ql-l6a">
+                            <connections>
+                                <action selector="respostaErrada1" destination="AgC-eL-Hgc" id="hTD-2J-iBw"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Resposta 3" id="kkw-3k-NnW">
+                            <connections>
+                                <action selector="respostaErrada2" destination="AgC-eL-Hgc" id="A7J-qF-3Md"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pergunta" destination="AIt-89-gS2" id="DmB-mJ-cNk"/>
+                        <outlet property="resposta1" destination="jHe-E7-4WU" id="PN3-pf-7gk"/>
+                        <outlet property="resposta2" destination="PzR-ql-l6a" id="adX-In-zJK"/>
+                        <outlet property="resposta3" destination="kkw-3k-NnW" id="YtL-CF-ej4"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="347"/>
+        </scene>
+        <!--pergunta2-->
+        <scene sceneID="Y5o-Jt-7YC">
+            <objects>
+                <controller identifier="pergunta2" id="eVA-WF-WXj" customClass="Pergunta2InterfaceController" customModule="Watch_Perguntas_e_Respostas_WatchKit_Extension">
+                    <items>
+                        <label width="1" height="62.5" alignment="left" text="Pergunta 2" textAlignment="left" numberOfLines="3" id="6SA-Lp-Qpz">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                        <button width="1" alignment="left" title="Resposta 1" id="GRn-yg-z72">
+                            <connections>
+                                <action selector="respostaErrada1" destination="eVA-WF-WXj" id="Z3C-5E-V5w"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Resposta 2" id="aaY-64-Pq6">
+                            <connections>
+                                <action selector="respostaCerta" destination="eVA-WF-WXj" id="R2l-Tr-Qym"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Resposta 3" id="h7Z-vF-wAV">
+                            <connections>
+                                <action selector="respostaErrada2" destination="eVA-WF-WXj" id="LwX-aO-Vsv"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pergunta" destination="6SA-Lp-Qpz" id="5lU-BF-POc"/>
+                        <outlet property="resposta1" destination="GRn-yg-z72" id="oTs-Mj-uBx"/>
+                        <outlet property="resposta2" destination="aaY-64-Pq6" id="ij1-3z-CEt"/>
+                        <outlet property="resposta3" destination="h7Z-vF-wAV" id="gV1-uL-HGx"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="477" y="347"/>
+        </scene>
+        <!--pergunta4-->
+        <scene sceneID="Nnh-Ws-P1q">
+            <objects>
+                <controller identifier="pergunta4" id="Osr-5i-zLA" customClass="Pergunta4InterfaceController" customModule="Watch_Perguntas_e_Respostas_WatchKit_Extension">
+                    <items>
+                        <label width="1" height="62.5" alignment="left" text="Pergunta 4" textAlignment="left" numberOfLines="3" id="Kdc-oH-1Ud">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                        <button width="1" alignment="left" title="Resposta 1" id="EZ1-oR-sV8">
+                            <connections>
+                                <action selector="respostaCerta" destination="Osr-5i-zLA" id="A9S-Jj-JOn"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Resposta 2" id="Hx1-pk-Yaf">
+                            <connections>
+                                <action selector="respostaErrada1" destination="Osr-5i-zLA" id="glp-mN-Y29"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Resposta 3" id="mUP-hy-3yt">
+                            <connections>
+                                <action selector="respostaErrada2" destination="Osr-5i-zLA" id="1Oh-Jx-NFN"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pergunta" destination="Kdc-oH-1Ud" id="I9X-i9-ECk"/>
+                        <outlet property="resposta1" destination="EZ1-oR-sV8" id="ghV-kV-O18"/>
+                        <outlet property="resposta2" destination="Hx1-pk-Yaf" id="3v5-qn-Jfj"/>
+                        <outlet property="resposta3" destination="mUP-hy-3yt" id="qeg-3K-Fde"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="946" y="347"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="Watch_Perguntas_e_Respostas_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="Watch_Perguntas_e_Respostas_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="1001"/>
+        </scene>
+        <!--pergunta3-->
+        <scene sceneID="zeh-Kh-ZDC">
+            <objects>
+                <controller identifier="pergunta3" id="ENh-SW-Q4X" customClass="Pergunta3InterfaceController" customModule="Watch_Perguntas_e_Respostas_WatchKit_Extension">
+                    <items>
+                        <label width="1" height="62.5" alignment="left" text="Pergunta 3" textAlignment="left" numberOfLines="3" id="sYn-FH-lnc">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                        <button width="1" alignment="left" title="Resposta 1" id="6R6-dk-r6l">
+                            <connections>
+                                <action selector="respostaErrada1" destination="ENh-SW-Q4X" id="ASe-xu-P2L"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Resposta 2" id="wXd-PO-tXr">
+                            <connections>
+                                <action selector="respostaErrada2" destination="ENh-SW-Q4X" id="AyT-OE-dP3"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Resposta 3" id="y0D-Ap-ZpT">
+                            <connections>
+                                <action selector="respostaCerta" destination="ENh-SW-Q4X" id="Kdi-hv-MFN"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pergunta" destination="sYn-FH-lnc" id="LBF-5A-JeU"/>
+                        <outlet property="resposta1" destination="6R6-dk-r6l" id="AOs-Qo-ZNT"/>
+                        <outlet property="resposta2" destination="wXd-PO-tXr" id="rhl-gQ-rzO"/>
+                        <outlet property="resposta3" destination="y0D-Ap-ZpT" id="R4v-sB-BjP"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="704" y="347"/>
+        </scene>
+        <!--pergunta5-->
+        <scene sceneID="elu-BX-Wxi">
+            <objects>
+                <controller identifier="pergunta5" id="E68-4F-oYm" customClass="Pergunta5InterfaceController" customModule="Watch_Perguntas_e_Respostas_WatchKit_Extension">
+                    <items>
+                        <label width="1" height="62.5" alignment="left" text="Pergunta 5" textAlignment="left" numberOfLines="3" id="qMg-Qx-pQY">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                        <button width="1" alignment="left" title="Resposta 1" id="V7p-7N-OAw">
+                            <connections>
+                                <action selector="respostaErrada1" destination="E68-4F-oYm" id="eCZ-lZ-EK1"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Resposta 2" id="FYU-P9-M30">
+                            <connections>
+                                <action selector="respostaCerta" destination="E68-4F-oYm" id="bRq-3a-y1I"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Resposta 3" id="jUQ-In-PMM">
+                            <connections>
+                                <action selector="respostaErrada2" destination="E68-4F-oYm" id="SZn-kT-1W7"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pergunta" destination="qMg-Qx-pQY" id="sX9-UA-5cn"/>
+                        <outlet property="resposta1" destination="V7p-7N-OAw" id="VbG-Fc-YuZ"/>
+                        <outlet property="resposta2" destination="FYU-P9-M30" id="BNU-1G-N2f"/>
+                        <outlet property="resposta3" destination="jUQ-In-PMM" id="kUa-5I-s8G"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1174" y="347"/>
+        </scene>
+        <!--scores-->
+        <scene sceneID="cdH-hD-lui">
+            <objects>
+                <controller identifier="scores" id="kQK-cL-6NE" customClass="ScoresInterfaceController" customModule="Watch_Perguntas_e_Respostas_WatchKit_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Scores" textAlignment="center" id="79b-ga-TK7">
+                            <fontDescription key="font" type="system" pointSize="40"/>
+                        </label>
+                        <label width="1" height="100" alignment="left" text="Label" textAlignment="center" id="bj5-FF-dU1">
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="scoresLabel" destination="bj5-FF-dU1" id="Erq-gG-YnF"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1418" y="347"/>
+        </scene>
+    </scenes>
+</document>

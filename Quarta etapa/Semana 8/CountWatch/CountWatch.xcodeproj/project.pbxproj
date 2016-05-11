@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72F5376B1B4AA5CB00D57120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5376A1B4AA5CB00D57120 /* AppDelegate.swift */; };
+		72F5376D1B4AA5CB00D57120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5376C1B4AA5CB00D57120 /* ViewController.swift */; };
+		72F537701B4AA5CB00D57120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F5376E1B4AA5CB00D57120 /* Main.storyboard */; };
+		72F537721B4AA5CB00D57120 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F537711B4AA5CB00D57120 /* Images.xcassets */; };
+		72F537751B4AA5CB00D57120 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F537731B4AA5CB00D57120 /* LaunchScreen.xib */; };
+		72F537811B4AA5CB00D57120 /* CountWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F537801B4AA5CB00D57120 /* CountWatchTests.swift */; };
+		72F537941B4AA5D600D57120 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F537931B4AA5D600D57120 /* InterfaceController.swift */; };
+		72F537961B4AA5D600D57120 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F537951B4AA5D600D57120 /* NotificationController.swift */; };
+		72F537981B4AA5D600D57120 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F537971B4AA5D600D57120 /* GlanceController.swift */; };
+		72F5379A1B4AA5D600D57120 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F537991B4AA5D600D57120 /* Images.xcassets */; };
+		72F5379E1B4AA5D600D57120 /* CountWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 72F5379D1B4AA5D600D57120 /* CountWatch WatchKit App.app */; };
+		72F537A61B4AA5D600D57120 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F537A41B4AA5D600D57120 /* Interface.storyboard */; };
+		72F537A81B4AA5D600D57120 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F537A71B4AA5D600D57120 /* Images.xcassets */; };
+		72F537AB1B4AA5D600D57120 /* CountWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 72F5378E1B4AA5D600D57120 /* CountWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72F537E31B4AABF100D57120 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F537E21B4AABF100D57120 /* Counter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72F5377B1B4AA5CB00D57120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F5375D1B4AA5CB00D57120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F537641B4AA5CB00D57120;
+			remoteInfo = CountWatch;
+		};
+		72F5379F1B4AA5D600D57120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F5375D1B4AA5CB00D57120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F5379C1B4AA5D600D57120;
+			remoteInfo = "CountWatch WatchKit App";
+		};
+		72F537A91B4AA5D600D57120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F5375D1B4AA5CB00D57120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F5378D1B4AA5D600D57120;
+			remoteInfo = "CountWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72F537B21B4AA5D600D57120 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				72F537AB1B4AA5D600D57120 /* CountWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		72F537651B4AA5CB00D57120 /* CountWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F537691B4AA5CB00D57120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F5376A1B4AA5CB00D57120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72F5376C1B4AA5CB00D57120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72F5376F1B4AA5CB00D57120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72F537711B4AA5CB00D57120 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72F537741B4AA5CB00D57120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		72F5377A1B4AA5CB00D57120 /* CountWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F5377F1B4AA5CB00D57120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F537801B4AA5CB00D57120 /* CountWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountWatchTests.swift; sourceTree = "<group>"; };
+		72F5378E1B4AA5D600D57120 /* CountWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CountWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F537911B4AA5D600D57120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F537921B4AA5D600D57120 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		72F537931B4AA5D600D57120 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		72F537951B4AA5D600D57120 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		72F537971B4AA5D600D57120 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		72F537991B4AA5D600D57120 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72F5379D1B4AA5D600D57120 /* CountWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CountWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F537A31B4AA5D600D57120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F537A51B4AA5D600D57120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		72F537A71B4AA5D600D57120 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72F537E21B4AABF100D57120 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		A01CFB151B4C0E6400AD77D2 /* CountWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CountWatch.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72F537621B4AA5CB00D57120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F537771B4AA5CB00D57120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F5378B1B4AA5D600D57120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72F5375C1B4AA5CB00D57120 = {
+			isa = PBXGroup;
+			children = (
+				72F537671B4AA5CB00D57120 /* CountWatch */,
+				72F5377D1B4AA5CB00D57120 /* CountWatchTests */,
+				72F5378F1B4AA5D600D57120 /* CountWatch WatchKit Extension */,
+				72F537A11B4AA5D600D57120 /* CountWatch WatchKit App */,
+				72F537661B4AA5CB00D57120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72F537661B4AA5CB00D57120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72F537651B4AA5CB00D57120 /* CountWatch.app */,
+				72F5377A1B4AA5CB00D57120 /* CountWatchTests.xctest */,
+				72F5378E1B4AA5D600D57120 /* CountWatch WatchKit Extension.appex */,
+				72F5379D1B4AA5D600D57120 /* CountWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72F537671B4AA5CB00D57120 /* CountWatch */ = {
+			isa = PBXGroup;
+			children = (
+				A01CFB151B4C0E6400AD77D2 /* CountWatch.entitlements */,
+				72F5376A1B4AA5CB00D57120 /* AppDelegate.swift */,
+				72F5376C1B4AA5CB00D57120 /* ViewController.swift */,
+				72F5376E1B4AA5CB00D57120 /* Main.storyboard */,
+				72F537711B4AA5CB00D57120 /* Images.xcassets */,
+				72F537731B4AA5CB00D57120 /* LaunchScreen.xib */,
+				72F537681B4AA5CB00D57120 /* Supporting Files */,
+			);
+			path = CountWatch;
+			sourceTree = "<group>";
+		};
+		72F537681B4AA5CB00D57120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F537691B4AA5CB00D57120 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72F5377D1B4AA5CB00D57120 /* CountWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				72F537801B4AA5CB00D57120 /* CountWatchTests.swift */,
+				72F5377E1B4AA5CB00D57120 /* Supporting Files */,
+			);
+			path = CountWatchTests;
+			sourceTree = "<group>";
+		};
+		72F5377E1B4AA5CB00D57120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F5377F1B4AA5CB00D57120 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72F5378F1B4AA5D600D57120 /* CountWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				72F537931B4AA5D600D57120 /* InterfaceController.swift */,
+				72F537951B4AA5D600D57120 /* NotificationController.swift */,
+				72F537971B4AA5D600D57120 /* GlanceController.swift */,
+				72F537E21B4AABF100D57120 /* Counter.swift */,
+				72F537991B4AA5D600D57120 /* Images.xcassets */,
+				72F537901B4AA5D600D57120 /* Supporting Files */,
+			);
+			path = "CountWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		72F537901B4AA5D600D57120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F537911B4AA5D600D57120 /* Info.plist */,
+				72F537921B4AA5D600D57120 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72F537A11B4AA5D600D57120 /* CountWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				72F537A41B4AA5D600D57120 /* Interface.storyboard */,
+				72F537A71B4AA5D600D57120 /* Images.xcassets */,
+				72F537A21B4AA5D600D57120 /* Supporting Files */,
+			);
+			path = "CountWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		72F537A21B4AA5D600D57120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F537A31B4AA5D600D57120 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72F537641B4AA5CB00D57120 /* CountWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F537841B4AA5CB00D57120 /* Build configuration list for PBXNativeTarget "CountWatch" */;
+			buildPhases = (
+				72F537611B4AA5CB00D57120 /* Sources */,
+				72F537621B4AA5CB00D57120 /* Frameworks */,
+				72F537631B4AA5CB00D57120 /* Resources */,
+				72F537B21B4AA5D600D57120 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F537AA1B4AA5D600D57120 /* PBXTargetDependency */,
+			);
+			name = CountWatch;
+			productName = CountWatch;
+			productReference = 72F537651B4AA5CB00D57120 /* CountWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72F537791B4AA5CB00D57120 /* CountWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F537871B4AA5CB00D57120 /* Build configuration list for PBXNativeTarget "CountWatchTests" */;
+			buildPhases = (
+				72F537761B4AA5CB00D57120 /* Sources */,
+				72F537771B4AA5CB00D57120 /* Frameworks */,
+				72F537781B4AA5CB00D57120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F5377C1B4AA5CB00D57120 /* PBXTargetDependency */,
+			);
+			name = CountWatchTests;
+			productName = CountWatchTests;
+			productReference = 72F5377A1B4AA5CB00D57120 /* CountWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72F5378D1B4AA5D600D57120 /* CountWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F537AF1B4AA5D600D57120 /* Build configuration list for PBXNativeTarget "CountWatch WatchKit Extension" */;
+			buildPhases = (
+				72F5378A1B4AA5D600D57120 /* Sources */,
+				72F5378B1B4AA5D600D57120 /* Frameworks */,
+				72F5378C1B4AA5D600D57120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F537A01B4AA5D600D57120 /* PBXTargetDependency */,
+			);
+			name = "CountWatch WatchKit Extension";
+			productName = "CountWatch WatchKit Extension";
+			productReference = 72F5378E1B4AA5D600D57120 /* CountWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		72F5379C1B4AA5D600D57120 /* CountWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F537AC1B4AA5D600D57120 /* Build configuration list for PBXNativeTarget "CountWatch WatchKit App" */;
+			buildPhases = (
+				72F5379B1B4AA5D600D57120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CountWatch WatchKit App";
+			productName = "CountWatch WatchKit App";
+			productReference = 72F5379D1B4AA5D600D57120 /* CountWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72F5375D1B4AA5CB00D57120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = J7ss;
+				TargetAttributes = {
+					72F537641B4AA5CB00D57120 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = S9Q88BN22A;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					72F537791B4AA5CB00D57120 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 72F537641B4AA5CB00D57120;
+					};
+					72F5378D1B4AA5D600D57120 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					72F5379C1B4AA5D600D57120 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 72F537601B4AA5CB00D57120 /* Build configuration list for PBXProject "CountWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72F5375C1B4AA5CB00D57120;
+			productRefGroup = 72F537661B4AA5CB00D57120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72F537641B4AA5CB00D57120 /* CountWatch */,
+				72F537791B4AA5CB00D57120 /* CountWatchTests */,
+				72F5378D1B4AA5D600D57120 /* CountWatch WatchKit Extension */,
+				72F5379C1B4AA5D600D57120 /* CountWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72F537631B4AA5CB00D57120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F537701B4AA5CB00D57120 /* Main.storyboard in Resources */,
+				72F537751B4AA5CB00D57120 /* LaunchScreen.xib in Resources */,
+				72F537721B4AA5CB00D57120 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F537781B4AA5CB00D57120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F5378C1B4AA5D600D57120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F5379E1B4AA5D600D57120 /* CountWatch WatchKit App.app in Resources */,
+				72F5379A1B4AA5D600D57120 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F5379B1B4AA5D600D57120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F537A61B4AA5D600D57120 /* Interface.storyboard in Resources */,
+				72F537A81B4AA5D600D57120 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72F537611B4AA5CB00D57120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F5376D1B4AA5CB00D57120 /* ViewController.swift in Sources */,
+				72F5376B1B4AA5CB00D57120 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F537761B4AA5CB00D57120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F537811B4AA5CB00D57120 /* CountWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F5378A1B4AA5D600D57120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F537E31B4AABF100D57120 /* Counter.swift in Sources */,
+				72F537961B4AA5D600D57120 /* NotificationController.swift in Sources */,
+				72F537941B4AA5D600D57120 /* InterfaceController.swift in Sources */,
+				72F537981B4AA5D600D57120 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72F5377C1B4AA5CB00D57120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F537641B4AA5CB00D57120 /* CountWatch */;
+			targetProxy = 72F5377B1B4AA5CB00D57120 /* PBXContainerItemProxy */;
+		};
+		72F537A01B4AA5D600D57120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F5379C1B4AA5D600D57120 /* CountWatch WatchKit App */;
+			targetProxy = 72F5379F1B4AA5D600D57120 /* PBXContainerItemProxy */;
+		};
+		72F537AA1B4AA5D600D57120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F5378D1B4AA5D600D57120 /* CountWatch WatchKit Extension */;
+			targetProxy = 72F537A91B4AA5D600D57120 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72F5376E1B4AA5CB00D57120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F5376F1B4AA5CB00D57120 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72F537731B4AA5CB00D57120 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F537741B4AA5CB00D57120 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		72F537A41B4AA5D600D57120 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F537A51B4AA5D600D57120 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72F537821B4AA5CB00D57120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72F537831B4AA5CB00D57120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72F537851B4AA5CB00D57120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CountWatch/CountWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CountWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		72F537861B4AA5CB00D57120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CountWatch/CountWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CountWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		72F537881B4AA5CB00D57120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CountWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountWatch.app/CountWatch";
+			};
+			name = Debug;
+		};
+		72F537891B4AA5CB00D57120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CountWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountWatch.app/CountWatch";
+			};
+			name = Release;
+		};
+		72F537AD1B4AA5D600D57120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = CountWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "CountWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		72F537AE1B4AA5D600D57120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = CountWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "CountWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		72F537B01B4AA5D600D57120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CountWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		72F537B11B4AA5D600D57120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CountWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72F537601B4AA5CB00D57120 /* Build configuration list for PBXProject "CountWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F537821B4AA5CB00D57120 /* Debug */,
+				72F537831B4AA5CB00D57120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F537841B4AA5CB00D57120 /* Build configuration list for PBXNativeTarget "CountWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F537851B4AA5CB00D57120 /* Debug */,
+				72F537861B4AA5CB00D57120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F537871B4AA5CB00D57120 /* Build configuration list for PBXNativeTarget "CountWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F537881B4AA5CB00D57120 /* Debug */,
+				72F537891B4AA5CB00D57120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F537AC1B4AA5D600D57120 /* Build configuration list for PBXNativeTarget "CountWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F537AD1B4AA5D600D57120 /* Debug */,
+				72F537AE1B4AA5D600D57120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F537AF1B4AA5D600D57120 /* Build configuration list for PBXNativeTarget "CountWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F537B01B4AA5D600D57120 /* Debug */,
+				72F537B11B4AA5D600D57120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72F5375D1B4AA5CB00D57120 /* Project object */;
+}

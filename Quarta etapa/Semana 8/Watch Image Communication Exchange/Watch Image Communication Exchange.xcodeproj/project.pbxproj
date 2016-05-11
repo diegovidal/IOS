@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0DE68B41B4D5188000AB6E8 /* Watch Image Communication Exchange WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB871B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App.app */; };
+		D0DE68B71B4D5198000AB6E8 /* Watch Image Communication Exchange WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB871B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App.app */; };
+		D0DE68B81B4D51E3000AB6E8 /* Watch Image Communication Exchange WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB871B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App.app */; };
+		D0DE68BD1B4D5227000AB6E8 /* Watch Image Communication Exchange WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF43AB781B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF43AB551B4C0AC4008F6299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB541B4C0AC4008F6299 /* AppDelegate.swift */; };
+		FF43AB571B4C0AC4008F6299 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB561B4C0AC4008F6299 /* ViewController.swift */; };
+		FF43AB5A1B4C0AC4008F6299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB581B4C0AC4008F6299 /* Main.storyboard */; };
+		FF43AB5C1B4C0AC4008F6299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB5B1B4C0AC4008F6299 /* Images.xcassets */; };
+		FF43AB5F1B4C0AC4008F6299 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB5D1B4C0AC4008F6299 /* LaunchScreen.xib */; };
+		FF43AB6B1B4C0AC4008F6299 /* Watch_Image_Communication_ExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB6A1B4C0AC4008F6299 /* Watch_Image_Communication_ExchangeTests.swift */; };
+		FF43AB7E1B4C0AD0008F6299 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB7D1B4C0AD0008F6299 /* InterfaceController.swift */; };
+		FF43AB801B4C0AD0008F6299 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB7F1B4C0AD0008F6299 /* NotificationController.swift */; };
+		FF43AB821B4C0AD0008F6299 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43AB811B4C0AD0008F6299 /* GlanceController.swift */; };
+		FF43AB841B4C0AD0008F6299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB831B4C0AD0008F6299 /* Images.xcassets */; };
+		FF43AB881B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB871B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App.app */; };
+		FF43AB901B4C0AD0008F6299 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB8E1B4C0AD0008F6299 /* Interface.storyboard */; };
+		FF43ABA01B4C1DE8008F6299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF43AB9F1B4C1DE8008F6299 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0DE68B51B4D5188000AB6E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF43AB471B4C0AC4008F6299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF43AB861B4C0AD0008F6299;
+			remoteInfo = "Watch Image Communication Exchange WatchKit App";
+		};
+		D0DE68BE1B4D5227000AB6E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF43AB471B4C0AC4008F6299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF43AB771B4C0AD0008F6299;
+			remoteInfo = "Watch Image Communication Exchange WatchKit Extension";
+		};
+		FF43AB651B4C0AC4008F6299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF43AB471B4C0AC4008F6299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF43AB4E1B4C0AC4008F6299;
+			remoteInfo = "Watch Image Communication Exchange";
+		};
+		FF43AB891B4C0AD0008F6299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF43AB471B4C0AC4008F6299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF43AB861B4C0AD0008F6299;
+			remoteInfo = "Watch Image Communication Exchange WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0DE68C01B4D5227000AB6E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D0DE68BD1B4D5227000AB6E8 /* Watch Image Communication Exchange WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF43AB4F1B4C0AC4008F6299 /* Watch Image Communication Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Image Communication Exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43AB531B4C0AC4008F6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43AB541B4C0AC4008F6299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF43AB561B4C0AC4008F6299 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF43AB591B4C0AC4008F6299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF43AB5B1B4C0AC4008F6299 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF43AB5E1B4C0AC4008F6299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF43AB641B4C0AC4008F6299 /* Watch Image Communication ExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watch Image Communication ExchangeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43AB691B4C0AC4008F6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43AB6A1B4C0AC4008F6299 /* Watch_Image_Communication_ExchangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch_Image_Communication_ExchangeTests.swift; sourceTree = "<group>"; };
+		FF43AB781B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Image Communication Exchange WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43AB7B1B4C0AD0008F6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43AB7C1B4C0AD0008F6299 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FF43AB7D1B4C0AD0008F6299 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FF43AB7F1B4C0AD0008F6299 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FF43AB811B4C0AD0008F6299 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		FF43AB831B4C0AD0008F6299 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF43AB871B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Image Communication Exchange WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43AB8D1B4C0AD0008F6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43AB8F1B4C0AD0008F6299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FF43AB9D1B4C110A008F6299 /* Watch Image Communication Exchange.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch Image Communication Exchange.entitlements"; sourceTree = "<group>"; };
+		FF43AB9E1B4C121E008F6299 /* Watch Image Communication Exchange WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch Image Communication Exchange WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		FF43AB9F1B4C1DE8008F6299 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF43AB4C1B4C0AC4008F6299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB611B4C0AC4008F6299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB751B4C0AD0008F6299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF43AB461B4C0AC4008F6299 = {
+			isa = PBXGroup;
+			children = (
+				FF43AB511B4C0AC4008F6299 /* Watch Image Communication Exchange */,
+				FF43AB671B4C0AC4008F6299 /* Watch Image Communication ExchangeTests */,
+				FF43AB791B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit Extension */,
+				FF43AB8B1B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App */,
+				FF43AB501B4C0AC4008F6299 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF43AB501B4C0AC4008F6299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB4F1B4C0AC4008F6299 /* Watch Image Communication Exchange.app */,
+				FF43AB641B4C0AC4008F6299 /* Watch Image Communication ExchangeTests.xctest */,
+				FF43AB781B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit Extension.appex */,
+				FF43AB871B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF43AB511B4C0AC4008F6299 /* Watch Image Communication Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB9D1B4C110A008F6299 /* Watch Image Communication Exchange.entitlements */,
+				FF43AB541B4C0AC4008F6299 /* AppDelegate.swift */,
+				FF43AB561B4C0AC4008F6299 /* ViewController.swift */,
+				FF43AB581B4C0AC4008F6299 /* Main.storyboard */,
+				FF43AB5B1B4C0AC4008F6299 /* Images.xcassets */,
+				FF43AB5D1B4C0AC4008F6299 /* LaunchScreen.xib */,
+				FF43AB521B4C0AC4008F6299 /* Supporting Files */,
+			);
+			path = "Watch Image Communication Exchange";
+			sourceTree = "<group>";
+		};
+		FF43AB521B4C0AC4008F6299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB531B4C0AC4008F6299 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF43AB671B4C0AC4008F6299 /* Watch Image Communication ExchangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB6A1B4C0AC4008F6299 /* Watch_Image_Communication_ExchangeTests.swift */,
+				FF43AB681B4C0AC4008F6299 /* Supporting Files */,
+			);
+			path = "Watch Image Communication ExchangeTests";
+			sourceTree = "<group>";
+		};
+		FF43AB681B4C0AC4008F6299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB691B4C0AC4008F6299 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF43AB791B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB9E1B4C121E008F6299 /* Watch Image Communication Exchange WatchKit Extension.entitlements */,
+				FF43AB7D1B4C0AD0008F6299 /* InterfaceController.swift */,
+				FF43AB7F1B4C0AD0008F6299 /* NotificationController.swift */,
+				FF43AB811B4C0AD0008F6299 /* GlanceController.swift */,
+				FF43AB831B4C0AD0008F6299 /* Images.xcassets */,
+				FF43AB7A1B4C0AD0008F6299 /* Supporting Files */,
+			);
+			path = "Watch Image Communication Exchange WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FF43AB7A1B4C0AD0008F6299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB7B1B4C0AD0008F6299 /* Info.plist */,
+				FF43AB7C1B4C0AD0008F6299 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF43AB8B1B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB9F1B4C1DE8008F6299 /* Images.xcassets */,
+				FF43AB8E1B4C0AD0008F6299 /* Interface.storyboard */,
+				FF43AB8C1B4C0AD0008F6299 /* Supporting Files */,
+			);
+			path = "Watch Image Communication Exchange WatchKit App";
+			sourceTree = "<group>";
+		};
+		FF43AB8C1B4C0AD0008F6299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF43AB8D1B4C0AD0008F6299 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF43AB4E1B4C0AC4008F6299 /* Watch Image Communication Exchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF43AB6E1B4C0AC4008F6299 /* Build configuration list for PBXNativeTarget "Watch Image Communication Exchange" */;
+			buildPhases = (
+				FF43AB4B1B4C0AC4008F6299 /* Sources */,
+				FF43AB4C1B4C0AC4008F6299 /* Frameworks */,
+				FF43AB4D1B4C0AC4008F6299 /* Resources */,
+				D0DE68C01B4D5227000AB6E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0DE68B61B4D5188000AB6E8 /* PBXTargetDependency */,
+				D0DE68BF1B4D5227000AB6E8 /* PBXTargetDependency */,
+			);
+			name = "Watch Image Communication Exchange";
+			productName = "Watch Image Communication Exchange";
+			productReference = FF43AB4F1B4C0AC4008F6299 /* Watch Image Communication Exchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF43AB631B4C0AC4008F6299 /* Watch Image Communication ExchangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF43AB711B4C0AC4008F6299 /* Build configuration list for PBXNativeTarget "Watch Image Communication ExchangeTests" */;
+			buildPhases = (
+				FF43AB601B4C0AC4008F6299 /* Sources */,
+				FF43AB611B4C0AC4008F6299 /* Frameworks */,
+				FF43AB621B4C0AC4008F6299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF43AB661B4C0AC4008F6299 /* PBXTargetDependency */,
+			);
+			name = "Watch Image Communication ExchangeTests";
+			productName = "Watch Image Communication ExchangeTests";
+			productReference = FF43AB641B4C0AC4008F6299 /* Watch Image Communication ExchangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF43AB771B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF43AB991B4C0AD0008F6299 /* Build configuration list for PBXNativeTarget "Watch Image Communication Exchange WatchKit Extension" */;
+			buildPhases = (
+				FF43AB741B4C0AD0008F6299 /* Sources */,
+				FF43AB751B4C0AD0008F6299 /* Frameworks */,
+				FF43AB761B4C0AD0008F6299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF43AB8A1B4C0AD0008F6299 /* PBXTargetDependency */,
+			);
+			name = "Watch Image Communication Exchange WatchKit Extension";
+			productName = "Watch Image Communication Exchange WatchKit Extension";
+			productReference = FF43AB781B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FF43AB861B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF43AB961B4C0AD0008F6299 /* Build configuration list for PBXNativeTarget "Watch Image Communication Exchange WatchKit App" */;
+			buildPhases = (
+				FF43AB851B4C0AD0008F6299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Image Communication Exchange WatchKit App";
+			productName = "Watch Image Communication Exchange WatchKit App";
+			productReference = FF43AB871B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF43AB471B4C0AC4008F6299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = bepid;
+				TargetAttributes = {
+					FF43AB4E1B4C0AC4008F6299 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = H9VE49EW89;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FF43AB631B4C0AC4008F6299 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FF43AB4E1B4C0AC4008F6299;
+					};
+					FF43AB771B4C0AD0008F6299 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = H9VE49EW89;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FF43AB861B4C0AD0008F6299 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = H9VE49EW89;
+					};
+				};
+			};
+			buildConfigurationList = FF43AB4A1B4C0AC4008F6299 /* Build configuration list for PBXProject "Watch Image Communication Exchange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF43AB461B4C0AC4008F6299;
+			productRefGroup = FF43AB501B4C0AC4008F6299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF43AB4E1B4C0AC4008F6299 /* Watch Image Communication Exchange */,
+				FF43AB631B4C0AC4008F6299 /* Watch Image Communication ExchangeTests */,
+				FF43AB771B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit Extension */,
+				FF43AB861B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF43AB4D1B4C0AC4008F6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AB5A1B4C0AC4008F6299 /* Main.storyboard in Resources */,
+				D0DE68B81B4D51E3000AB6E8 /* Watch Image Communication Exchange WatchKit App.app in Resources */,
+				D0DE68B41B4D5188000AB6E8 /* Watch Image Communication Exchange WatchKit App.app in Resources */,
+				FF43AB5F1B4C0AC4008F6299 /* LaunchScreen.xib in Resources */,
+				D0DE68B71B4D5198000AB6E8 /* Watch Image Communication Exchange WatchKit App.app in Resources */,
+				FF43AB5C1B4C0AC4008F6299 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB621B4C0AC4008F6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB761B4C0AD0008F6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AB841B4C0AD0008F6299 /* Images.xcassets in Resources */,
+				FF43AB881B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB851B4C0AD0008F6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AB901B4C0AD0008F6299 /* Interface.storyboard in Resources */,
+				FF43ABA01B4C1DE8008F6299 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF43AB4B1B4C0AC4008F6299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AB571B4C0AC4008F6299 /* ViewController.swift in Sources */,
+				FF43AB551B4C0AC4008F6299 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB601B4C0AC4008F6299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AB6B1B4C0AC4008F6299 /* Watch_Image_Communication_ExchangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43AB741B4C0AD0008F6299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43AB801B4C0AD0008F6299 /* NotificationController.swift in Sources */,
+				FF43AB7E1B4C0AD0008F6299 /* InterfaceController.swift in Sources */,
+				FF43AB821B4C0AD0008F6299 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0DE68B61B4D5188000AB6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF43AB861B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App */;
+			targetProxy = D0DE68B51B4D5188000AB6E8 /* PBXContainerItemProxy */;
+		};
+		D0DE68BF1B4D5227000AB6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF43AB771B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit Extension */;
+			targetProxy = D0DE68BE1B4D5227000AB6E8 /* PBXContainerItemProxy */;
+		};
+		FF43AB661B4C0AC4008F6299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF43AB4E1B4C0AC4008F6299 /* Watch Image Communication Exchange */;
+			targetProxy = FF43AB651B4C0AC4008F6299 /* PBXContainerItemProxy */;
+		};
+		FF43AB8A1B4C0AD0008F6299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF43AB861B4C0AD0008F6299 /* Watch Image Communication Exchange WatchKit App */;
+			targetProxy = FF43AB891B4C0AD0008F6299 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF43AB581B4C0AC4008F6299 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF43AB591B4C0AC4008F6299 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF43AB5D1B4C0AC4008F6299 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF43AB5E1B4C0AC4008F6299 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FF43AB8E1B4C0AD0008F6299 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF43AB8F1B4C0AD0008F6299 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF43AB6C1B4C0AC4008F6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF43AB6D1B4C0AC4008F6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF43AB6F1B4C0AC4008F6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Watch Image Communication Exchange/Watch Image Communication Exchange.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Watch Image Communication Exchange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FF43AB701B4C0AC4008F6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Watch Image Communication Exchange/Watch Image Communication Exchange.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Watch Image Communication Exchange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FF43AB721B4C0AC4008F6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch Image Communication ExchangeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Image Communication Exchange.app/Watch Image Communication Exchange";
+			};
+			name = Debug;
+		};
+		FF43AB731B4C0AC4008F6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch Image Communication ExchangeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Image Communication Exchange.app/Watch Image Communication Exchange";
+			};
+			name = Release;
+		};
+		FF43AB971B4C0AD0008F6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Watch_Image_Communication_Exchange_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch Image Communication Exchange WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FF43AB981B4C0AD0008F6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = Watch_Image_Communication_Exchange_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch Image Communication Exchange WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FF43AB9A1B4C0AD0008F6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Watch Image Communication Exchange WatchKit Extension/Watch Image Communication Exchange WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch Image Communication Exchange WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF43AB9B1B4C0AD0008F6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Watch Image Communication Exchange WatchKit Extension/Watch Image Communication Exchange WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Watch Image Communication Exchange WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF43AB4A1B4C0AC4008F6299 /* Build configuration list for PBXProject "Watch Image Communication Exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AB6C1B4C0AC4008F6299 /* Debug */,
+				FF43AB6D1B4C0AC4008F6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF43AB6E1B4C0AC4008F6299 /* Build configuration list for PBXNativeTarget "Watch Image Communication Exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AB6F1B4C0AC4008F6299 /* Debug */,
+				FF43AB701B4C0AC4008F6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF43AB711B4C0AC4008F6299 /* Build configuration list for PBXNativeTarget "Watch Image Communication ExchangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AB721B4C0AC4008F6299 /* Debug */,
+				FF43AB731B4C0AC4008F6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF43AB961B4C0AD0008F6299 /* Build configuration list for PBXNativeTarget "Watch Image Communication Exchange WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AB971B4C0AD0008F6299 /* Debug */,
+				FF43AB981B4C0AD0008F6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF43AB991B4C0AD0008F6299 /* Build configuration list for PBXNativeTarget "Watch Image Communication Exchange WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AB9A1B4C0AD0008F6299 /* Debug */,
+				FF43AB9B1B4C0AD0008F6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF43AB471B4C0AC4008F6299 /* Project object */;
+}

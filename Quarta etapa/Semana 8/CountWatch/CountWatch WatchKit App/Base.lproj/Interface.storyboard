@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CountWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" height="90" alignment="left" text="0" textAlignment="center" id="A6B-zK-lq9">
+                            <color key="textColor" red="1" green="0.093133223680000002" blue="0.052014802630000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="35"/>
+                        </label>
+                        <group width="1" alignment="left" id="SJL-jZ-CHV">
+                            <items>
+                                <button width="0.50000000000000011" alignment="left" title="Count" id="KK1-2I-tGR">
+                                    <connections>
+                                        <action selector="count" destination="AgC-eL-Hgc" id="Jmr-Gb-nDv"/>
+                                    </connections>
+                                </button>
+                                <button width="0.50000000000000011" alignment="left" title="Erase" id="CPC-jS-WwB">
+                                    <connections>
+                                        <action selector="erase" destination="AgC-eL-Hgc" id="TWa-4e-4X1"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="countLabel" destination="A6B-zK-lq9" id="JP0-Yq-uNf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="175" y="146"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="CountWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y">
+                            <items>
+                                <label width="1" alignment="left" text="Number of count:" numberOfLines="2" id="XmL-mj-Jif"/>
+                            </items>
+                        </group>
+                        <group alignment="left" id="uCw-4Q-Ouw">
+                            <items>
+                                <label width="1" height="1" alignment="left" text="0" textAlignment="center" id="4zU-BY-hbQ">
+                                    <fontDescription key="font" type="system" pointSize="36"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="counterLabel" destination="4zU-BY-hbQ" id="zZv-It-K9z"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="175" y="397"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="175" y="642"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="CountWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" alignment="left" text="Alert Message" id="HT7-lj-YCr"/>
+                        <label alignment="left" text="Counter:" id="rN4-Pa-2gI"/>
+                        <label width="1" height="100" alignment="left" text="0" textAlignment="center" id="ZYU-TD-hSm">
+                            <fontDescription key="font" type="system" pointSize="36"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="alertMessage" destination="HT7-lj-YCr" id="x8n-4r-Tln"/>
+                        <outlet property="counterLabel" destination="ZYU-TD-hSm" id="m6e-fV-wEl"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="484" y="642"/>
+        </scene>
+    </scenes>
+</document>

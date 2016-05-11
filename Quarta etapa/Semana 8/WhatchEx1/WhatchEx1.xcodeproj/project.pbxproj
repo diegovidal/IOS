@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04A02D21B4AC1CF000D3BDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A02D11B4AC1CF000D3BDB /* AppDelegate.swift */; };
+		D04A02D41B4AC1CF000D3BDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A02D31B4AC1CF000D3BDB /* ViewController.swift */; };
+		D04A02D71B4AC1CF000D3BDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04A02D51B4AC1CF000D3BDB /* Main.storyboard */; };
+		D04A02D91B4AC1CF000D3BDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04A02D81B4AC1CF000D3BDB /* Images.xcassets */; };
+		D04A02DC1B4AC1CF000D3BDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04A02DA1B4AC1CF000D3BDB /* LaunchScreen.xib */; };
+		D04A02E81B4AC1CF000D3BDB /* WhatchEx1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A02E71B4AC1CF000D3BDB /* WhatchEx1Tests.swift */; };
+		D04A02FA1B4AC225000D3BDB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A02F91B4AC225000D3BDB /* InterfaceController.swift */; };
+		D04A02FC1B4AC225000D3BDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04A02FB1B4AC225000D3BDB /* Images.xcassets */; };
+		D04A03001B4AC225000D3BDB /* WhatchEx1 WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D04A02FF1B4AC225000D3BDB /* WhatchEx1 WatchKit App.app */; };
+		D04A03081B4AC225000D3BDB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04A03061B4AC225000D3BDB /* Interface.storyboard */; };
+		D04A030A1B4AC225000D3BDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04A03091B4AC225000D3BDB /* Images.xcassets */; };
+		D04A030D1B4AC225000D3BDB /* WhatchEx1 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D04A02F51B4AC225000D3BDB /* WhatchEx1 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D04A02E21B4AC1CF000D3BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04A02C41B4AC1CF000D3BDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04A02CB1B4AC1CF000D3BDB;
+			remoteInfo = WhatchEx1;
+		};
+		D04A03011B4AC225000D3BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04A02C41B4AC1CF000D3BDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04A02FE1B4AC225000D3BDB;
+			remoteInfo = "WhatchEx1 WatchKit App";
+		};
+		D04A030B1B4AC225000D3BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04A02C41B4AC1CF000D3BDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04A02F41B4AC225000D3BDB;
+			remoteInfo = "WhatchEx1 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D04A03141B4AC225000D3BDB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D04A030D1B4AC225000D3BDB /* WhatchEx1 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D04A02CC1B4AC1CF000D3BDB /* WhatchEx1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatchEx1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04A02D01B4AC1CF000D3BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04A02D11B4AC1CF000D3BDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D04A02D31B4AC1CF000D3BDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D04A02D61B4AC1CF000D3BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D04A02D81B4AC1CF000D3BDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D04A02DB1B4AC1CF000D3BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D04A02E11B4AC1CF000D3BDB /* WhatchEx1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatchEx1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04A02E61B4AC1CF000D3BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04A02E71B4AC1CF000D3BDB /* WhatchEx1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatchEx1Tests.swift; sourceTree = "<group>"; };
+		D04A02F51B4AC225000D3BDB /* WhatchEx1 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WhatchEx1 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04A02F81B4AC225000D3BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04A02F91B4AC225000D3BDB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D04A02FB1B4AC225000D3BDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D04A02FF1B4AC225000D3BDB /* WhatchEx1 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatchEx1 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04A03051B4AC225000D3BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04A03071B4AC225000D3BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D04A03091B4AC225000D3BDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04A02C91B4AC1CF000D3BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04A02DE1B4AC1CF000D3BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04A02F21B4AC225000D3BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04A02C31B4AC1CF000D3BDB = {
+			isa = PBXGroup;
+			children = (
+				D04A02CE1B4AC1CF000D3BDB /* WhatchEx1 */,
+				D04A02E41B4AC1CF000D3BDB /* WhatchEx1Tests */,
+				D04A02F61B4AC225000D3BDB /* WhatchEx1 WatchKit Extension */,
+				D04A03031B4AC225000D3BDB /* WhatchEx1 WatchKit App */,
+				D04A02CD1B4AC1CF000D3BDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04A02CD1B4AC1CF000D3BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04A02CC1B4AC1CF000D3BDB /* WhatchEx1.app */,
+				D04A02E11B4AC1CF000D3BDB /* WhatchEx1Tests.xctest */,
+				D04A02F51B4AC225000D3BDB /* WhatchEx1 WatchKit Extension.appex */,
+				D04A02FF1B4AC225000D3BDB /* WhatchEx1 WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04A02CE1B4AC1CF000D3BDB /* WhatchEx1 */ = {
+			isa = PBXGroup;
+			children = (
+				D04A02D11B4AC1CF000D3BDB /* AppDelegate.swift */,
+				D04A02D31B4AC1CF000D3BDB /* ViewController.swift */,
+				D04A02D51B4AC1CF000D3BDB /* Main.storyboard */,
+				D04A02D81B4AC1CF000D3BDB /* Images.xcassets */,
+				D04A02DA1B4AC1CF000D3BDB /* LaunchScreen.xib */,
+				D04A02CF1B4AC1CF000D3BDB /* Supporting Files */,
+			);
+			path = WhatchEx1;
+			sourceTree = "<group>";
+		};
+		D04A02CF1B4AC1CF000D3BDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04A02D01B4AC1CF000D3BDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04A02E41B4AC1CF000D3BDB /* WhatchEx1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D04A02E71B4AC1CF000D3BDB /* WhatchEx1Tests.swift */,
+				D04A02E51B4AC1CF000D3BDB /* Supporting Files */,
+			);
+			path = WhatchEx1Tests;
+			sourceTree = "<group>";
+		};
+		D04A02E51B4AC1CF000D3BDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04A02E61B4AC1CF000D3BDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04A02F61B4AC225000D3BDB /* WhatchEx1 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D04A02F91B4AC225000D3BDB /* InterfaceController.swift */,
+				D04A02FB1B4AC225000D3BDB /* Images.xcassets */,
+				D04A02F71B4AC225000D3BDB /* Supporting Files */,
+			);
+			path = "WhatchEx1 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D04A02F71B4AC225000D3BDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04A02F81B4AC225000D3BDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04A03031B4AC225000D3BDB /* WhatchEx1 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D04A03061B4AC225000D3BDB /* Interface.storyboard */,
+				D04A03091B4AC225000D3BDB /* Images.xcassets */,
+				D04A03041B4AC225000D3BDB /* Supporting Files */,
+			);
+			path = "WhatchEx1 WatchKit App";
+			sourceTree = "<group>";
+		};
+		D04A03041B4AC225000D3BDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04A03051B4AC225000D3BDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04A02CB1B4AC1CF000D3BDB /* WhatchEx1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04A02EB1B4AC1CF000D3BDB /* Build configuration list for PBXNativeTarget "WhatchEx1" */;
+			buildPhases = (
+				D04A02C81B4AC1CF000D3BDB /* Sources */,
+				D04A02C91B4AC1CF000D3BDB /* Frameworks */,
+				D04A02CA1B4AC1CF000D3BDB /* Resources */,
+				D04A03141B4AC225000D3BDB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04A030C1B4AC225000D3BDB /* PBXTargetDependency */,
+			);
+			name = WhatchEx1;
+			productName = WhatchEx1;
+			productReference = D04A02CC1B4AC1CF000D3BDB /* WhatchEx1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D04A02E01B4AC1CF000D3BDB /* WhatchEx1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04A02EE1B4AC1CF000D3BDB /* Build configuration list for PBXNativeTarget "WhatchEx1Tests" */;
+			buildPhases = (
+				D04A02DD1B4AC1CF000D3BDB /* Sources */,
+				D04A02DE1B4AC1CF000D3BDB /* Frameworks */,
+				D04A02DF1B4AC1CF000D3BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04A02E31B4AC1CF000D3BDB /* PBXTargetDependency */,
+			);
+			name = WhatchEx1Tests;
+			productName = WhatchEx1Tests;
+			productReference = D04A02E11B4AC1CF000D3BDB /* WhatchEx1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D04A02F41B4AC225000D3BDB /* WhatchEx1 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04A03111B4AC225000D3BDB /* Build configuration list for PBXNativeTarget "WhatchEx1 WatchKit Extension" */;
+			buildPhases = (
+				D04A02F11B4AC225000D3BDB /* Sources */,
+				D04A02F21B4AC225000D3BDB /* Frameworks */,
+				D04A02F31B4AC225000D3BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04A03021B4AC225000D3BDB /* PBXTargetDependency */,
+			);
+			name = "WhatchEx1 WatchKit Extension";
+			productName = "WhatchEx1 WatchKit Extension";
+			productReference = D04A02F51B4AC225000D3BDB /* WhatchEx1 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D04A02FE1B4AC225000D3BDB /* WhatchEx1 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04A030E1B4AC225000D3BDB /* Build configuration list for PBXNativeTarget "WhatchEx1 WatchKit App" */;
+			buildPhases = (
+				D04A02FD1B4AC225000D3BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhatchEx1 WatchKit App";
+			productName = "WhatchEx1 WatchKit App";
+			productReference = D04A02FF1B4AC225000D3BDB /* WhatchEx1 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04A02C41B4AC1CF000D3BDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Othon;
+				TargetAttributes = {
+					D04A02CB1B4AC1CF000D3BDB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D04A02E01B4AC1CF000D3BDB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D04A02CB1B4AC1CF000D3BDB;
+					};
+					D04A02F41B4AC225000D3BDB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D04A02FE1B4AC225000D3BDB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = D04A02C71B4AC1CF000D3BDB /* Build configuration list for PBXProject "WhatchEx1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D04A02C31B4AC1CF000D3BDB;
+			productRefGroup = D04A02CD1B4AC1CF000D3BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04A02CB1B4AC1CF000D3BDB /* WhatchEx1 */,
+				D04A02E01B4AC1CF000D3BDB /* WhatchEx1Tests */,
+				D04A02F41B4AC225000D3BDB /* WhatchEx1 WatchKit Extension */,
+				D04A02FE1B4AC225000D3BDB /* WhatchEx1 WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D04A02CA1B4AC1CF000D3BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04A02D71B4AC1CF000D3BDB /* Main.storyboard in Resources */,
+				D04A02DC1B4AC1CF000D3BDB /* LaunchScreen.xib in Resources */,
+				D04A02D91B4AC1CF000D3BDB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04A02DF1B4AC1CF000D3BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04A02F31B4AC225000D3BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04A03001B4AC225000D3BDB /* WhatchEx1 WatchKit App.app in Resources */,
+				D04A02FC1B4AC225000D3BDB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04A02FD1B4AC225000D3BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04A03081B4AC225000D3BDB /* Interface.storyboard in Resources */,
+				D04A030A1B4AC225000D3BDB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D04A02C81B4AC1CF000D3BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04A02D41B4AC1CF000D3BDB /* ViewController.swift in Sources */,
+				D04A02D21B4AC1CF000D3BDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04A02DD1B4AC1CF000D3BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04A02E81B4AC1CF000D3BDB /* WhatchEx1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04A02F11B4AC225000D3BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04A02FA1B4AC225000D3BDB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D04A02E31B4AC1CF000D3BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04A02CB1B4AC1CF000D3BDB /* WhatchEx1 */;
+			targetProxy = D04A02E21B4AC1CF000D3BDB /* PBXContainerItemProxy */;
+		};
+		D04A03021B4AC225000D3BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04A02FE1B4AC225000D3BDB /* WhatchEx1 WatchKit App */;
+			targetProxy = D04A03011B4AC225000D3BDB /* PBXContainerItemProxy */;
+		};
+		D04A030C1B4AC225000D3BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04A02F41B4AC225000D3BDB /* WhatchEx1 WatchKit Extension */;
+			targetProxy = D04A030B1B4AC225000D3BDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D04A02D51B4AC1CF000D3BDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04A02D61B4AC1CF000D3BDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D04A02DA1B4AC1CF000D3BDB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04A02DB1B4AC1CF000D3BDB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D04A03061B4AC225000D3BDB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04A03071B4AC225000D3BDB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04A02E91B4AC1CF000D3BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D04A02EA1B4AC1CF000D3BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D04A02EC1B4AC1CF000D3BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhatchEx1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D04A02ED1B4AC1CF000D3BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhatchEx1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D04A02EF1B4AC1CF000D3BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhatchEx1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatchEx1.app/WhatchEx1";
+			};
+			name = Debug;
+		};
+		D04A02F01B4AC1CF000D3BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhatchEx1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatchEx1.app/WhatchEx1";
+			};
+			name = Release;
+		};
+		D04A030F1B4AC225000D3BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WhatchEx1_WatchKit_Extension;
+				INFOPLIST_FILE = "WhatchEx1 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D04A03101B4AC225000D3BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WhatchEx1_WatchKit_Extension;
+				INFOPLIST_FILE = "WhatchEx1 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D04A03121B4AC225000D3BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WhatchEx1 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D04A03131B4AC225000D3BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WhatchEx1 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04A02C71B4AC1CF000D3BDB /* Build configuration list for PBXProject "WhatchEx1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04A02E91B4AC1CF000D3BDB /* Debug */,
+				D04A02EA1B4AC1CF000D3BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04A02EB1B4AC1CF000D3BDB /* Build configuration list for PBXNativeTarget "WhatchEx1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04A02EC1B4AC1CF000D3BDB /* Debug */,
+				D04A02ED1B4AC1CF000D3BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D04A02EE1B4AC1CF000D3BDB /* Build configuration list for PBXNativeTarget "WhatchEx1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04A02EF1B4AC1CF000D3BDB /* Debug */,
+				D04A02F01B4AC1CF000D3BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D04A030E1B4AC225000D3BDB /* Build configuration list for PBXNativeTarget "WhatchEx1 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04A030F1B4AC225000D3BDB /* Debug */,
+				D04A03101B4AC225000D3BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D04A03111B4AC225000D3BDB /* Build configuration list for PBXNativeTarget "WhatchEx1 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04A03121B4AC225000D3BDB /* Debug */,
+				D04A03131B4AC225000D3BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D04A02C41B4AC1CF000D3BDB /* Project object */;
+}
