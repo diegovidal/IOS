@@ -1,0 +1,65 @@
+{
+    "data" : [ [ "Instituto Federal de Ciência, Educação e Tecnologia",
+                "Universidade",
+                "IFCE",
+                "-3.744190",
+                "-38.535913" ]
+              
+              , [ "23º Batalhão de Caçadores",
+                 "Militar",
+                 "23º B.C.",
+                 "-3.749208",
+                 "-38.533591"]
+              
+              , [ "UFC - Faculdade de Educação",
+                 "Universidade",
+                 "UFC",
+                 "-3.741561",
+                 " -38.537402"]
+              
+              , [ "Museu de Arte da Universidade Federal do Ceará",
+                 "Universidade",
+                 "UFC - Reitoria",
+                 "-3.741355",
+                 "-38.539309" ]
+              
+              , [ "Reitoria da Universidade Federal do Ceará",
+                 "Universidade",
+                 "UFC - Museu de Arte",
+                 "-3.741020",
+                 "-38.539521",
+                 ]
+              
+              , ["Shopping center Benfica",
+                 "Comercial",
+                 "Benfica",
+                 "-3.739022",
+                 "-38.540214" ]
+              
+              , [ "Restaurante Solares",
+                 "Comercial",
+                 "Solares",
+                 "-3.741970",
+                 "-38.537672"]
+              
+              , [ "Restaurante Mandir",
+                 "Comercial",
+                 "Mandir",
+                 "-3.743920",
+                 "-38.539605" ]
+              
+              , [ "Praça da Gentilândia",
+                 "Público",
+                 "Gentilândia",
+                 "-3.742660",
+                 "-38.537358" ]
+              
+              , ["Estádio Presidente Vargas",
+                 "Público",
+                 "PV",
+                 "-3.745817",
+                 "-38.536889"]
+              ]
+}
+
+

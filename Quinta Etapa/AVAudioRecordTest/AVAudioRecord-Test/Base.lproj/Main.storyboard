@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AVAudioRecord_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYK-ux-Tha">
+                                <rect key="frame" x="275" y="247" width="50" height="30"/>
+                                <state key="normal" title="Record">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E78-9V-sir"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4Z-5d-NSa">
+                                <rect key="frame" x="285" y="323" width="30" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s5Y-Cu-p20"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tb1-ze-xdL">
+                                <rect key="frame" x="284" y="285" width="33" height="30"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gra-as-1YQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iYK-ux-Tha" firstAttribute="centerX" secondItem="tb1-ze-xdL" secondAttribute="centerX" id="Xcd-Zl-2pI"/>
+                            <constraint firstItem="tb1-ze-xdL" firstAttribute="top" secondItem="iYK-ux-Tha" secondAttribute="bottom" constant="8" symbolic="YES" id="kIe-9Q-nvw"/>
+                            <constraint firstItem="a4Z-5d-NSa" firstAttribute="top" secondItem="tb1-ze-xdL" secondAttribute="bottom" constant="8" symbolic="YES" id="kk7-Lz-g7g"/>
+                            <constraint firstItem="a4Z-5d-NSa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kuO-Pw-MMU"/>
+                            <constraint firstItem="tb1-ze-xdL" firstAttribute="centerX" secondItem="a4Z-5d-NSa" secondAttribute="centerX" id="nVe-8F-Igu"/>
+                            <constraint firstItem="tb1-ze-xdL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tf2-gx-dDe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playOutlet" destination="a4Z-5d-NSa" id="RGH-DD-RJX"/>
+                        <outlet property="recordOutlet" destination="iYK-ux-Tha" id="nct-DO-eSK"/>
+                        <outlet property="stopOutlet" destination="tb1-ze-xdL" id="ooK-kb-AO2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

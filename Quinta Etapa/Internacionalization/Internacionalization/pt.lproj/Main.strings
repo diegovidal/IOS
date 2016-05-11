@@ -1,0 +1,18 @@
+
+/* Class = "UINavigationItem"; title = "tela2"; ObjectID = "HQj-4z-W5A"; */
+"HQj-4z-W5A.title" = "tela2";
+
+/* Class = "UITextField"; placeholder = "Nome"; ObjectID = "Lik-cm-Tna"; */
+"Lik-cm-Tna.placeholder" = "Nome";
+
+/* Class = "UINavigationItem"; title = "Raiz"; ObjectID = "YvK-pz-p8c"; */
+"YvK-pz-p8c.title" = "Raiz";
+
+/* Class = "UILabel"; text = "Portugues"; ObjectID = "mvd-BA-Kn8"; */
+"mvd-BA-Kn8.text" = "Portugues";
+
+/* Class = "UIButton"; normalTitle = "Vá para próxima tela"; ObjectID = "rm5-jd-gJw"; */
+"rm5-jd-gJw.normalTitle" = "Vá para próxima tela";
+
+/* Class = "UITextView"; text = "Eu gosto de alguma coisa"; ObjectID = "uHh-Ou-wYn"; */
+"uHh-Ou-wYn.text" = "Eu gosto de alguma coisa";

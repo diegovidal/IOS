@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  NSLocalized-Demo
+
+  Created by Diego Vidal on 18/08/15.
+  Copyright (c) 2015 Diego Vidal. All rights reserved.
+*/
+
+"countryKey" = "Brasil";
+"localKey" = "pt-br";
+"flagKey" = "brasil";
+"valueKey" = "35.10";
+"helloKey" = "Olá Brasil!!";
