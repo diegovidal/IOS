@@ -1,0 +1,56 @@
+Exercício - Introdução ao Swift
+
+1) Em que situação o uso de ‘;’ se torna útil?
+
+R- Para escrever múltiplos comandos em uma mesma linha de código é necessário a utilização do "ponto e virgula"
+
+--------------------------------------------------------------------------
+
+2) Após uma variável receber um valor, é possível mudar o tipo? Explique.
+
+R- Não, uma vez feita a atribuição a mudança não é possível.
+
+--------------------------------------------------------------------------
+
+3) Teste o código abaixo. Qual o problema apresentado? Apresente uma solução para o problema.
+
+let a = 7.0
+let b = 1.0
+let c = 5
+var x = a + b - c
+
+R- A constante c é atribuída como um int e a expressão necessita do retorno de uma variável do tipo float, logo para resolver o problema é necessário a atribuição do 5.0 a constante c.
+
+--------------------------------------------------------------------------
+
+4) Explique em poucas palavras quando usar o var e quando usar o let. Qual dos dois você acha será mais utilizado?
+
+R- O var é utilizado quando você precisa instanciar uma variável, ou seja um valor que pode mudar ao decorrer do programa já o let é utilizado para a instâncias de constantes. Na minha opinião o tipo let será mais utilizado.
+
+--------------------------------------------------------------------------
+
+5) O que é sobrecarga de operadores? Qual a diferença entre Objective-C e Swift nesse aspecto?
+
+--------------------------------------------------------------------------
+
+6) Descreva as principais diferenças entre o Array (Swift) e o NSArray (Objective-c)
+
+R- Podemos afirmar que no swift a instância é feita de uma maneira mais simples, a alocação é feita dinamicamente e permite trabalhar com métodos semelhantes aos do NSArray e NSMutableArray
+
+--------------------------------------------------------------------------
+
+7) Explique em poucas palavras o que são Generics em Swift
+
+R- É uma estrutura que permite o desenvolvedor trabalhar com diversos tipos de variáveis, utilizando um parâmetro genérico
+
+--------------------------------------------------------------------------
+
+8) Descreva as principais diferenças entre o Dictionary (Swift) e o NSDictionary (Objective-C)
+
+R- Podemos afirmar que no swift a instância é feita de uma maneira mais simples, a alocação é feita dinamicamente e permite trabalhar com métodos semelhantes aos do NSDictionary e NSMutableDictionary
+
+--------------------------------------------------------------------------
+
+9) Descreva as principais diferenças entre as estruturas de controle do Objective-C e do Swift (if, for, while e switch)
+
+R- na estrutura do "if" a mudança foi apenas a ausência do parêntese. No "for" foi incluido um novo tipo de estrutura utilizando .. ou ..., foi retirado o uso do parêntese. No while novamente a ausência do parêntese e no switch não houve nenhuma mudança
