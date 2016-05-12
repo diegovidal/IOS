@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Type the hashtag"; ObjectID = "6q0-YO-sQW"; */
+"6q0-YO-sQW.placeholder" = "Digite a Hashtag";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "GdY-V9-ZEO"; */
+"GdY-V9-ZEO.normalTitle" = "Cancelar";
+
+/* Class = "UILabel"; text = "#"; ObjectID = "T9C-cq-OEc"; */
+"T9C-cq-OEc.text" = "#";
+
+/* Class = "UIButton"; normalTitle = "Check Hashtag"; ObjectID = "mrU-zJ-ORi"; */
+"mrU-zJ-ORi.normalTitle" = "Verificar Hashtag";
+
+/* Class = "UITextField"; placeholder = "Event name"; ObjectID = "pKB-T0-8e5"; */
+"pKB-T0-8e5.placeholder" = "Nome do Evento";
+
+/* Class = "UIButton"; normalTitle = "Follow"; ObjectID = "sIN-Tf-x5h"; */
+"sIN-Tf-x5h.normalTitle" = "Criar";

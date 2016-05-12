@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="eR8-y0-s5s" customClass="SubEventDetailPopup" customModule="EventCast" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="240"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NeR-Pm-ddq">
+                    <rect key="frame" x="0.0" y="190" width="300" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kl-ik-vFk">
+                            <rect key="frame" x="247" y="0.0" width="45" height="50"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="hJw-8i-6wW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <state key="normal" title="Close">
+                                <color key="titleColor" red="0.0" green="0.25490196079999999" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="didTouchCancelBtn:" destination="eR8-y0-s5s" eventType="touchUpInside" id="XFi-dT-9wW"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="SFs-OU-LJN"/>
+                        <constraint firstAttribute="trailing" secondItem="3Kl-ik-vFk" secondAttribute="trailing" constant="8" id="ctq-S5-Zdm"/>
+                        <constraint firstAttribute="bottom" secondItem="3Kl-ik-vFk" secondAttribute="bottom" id="pQo-IT-rfB"/>
+                        <constraint firstItem="3Kl-ik-vFk" firstAttribute="top" secondItem="NeR-Pm-ddq" secondAttribute="top" id="z6u-UQ-iFb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8v0-Jx-xUl">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="45"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="England vs. Fiji" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cH-Nn-myc">
+                            <rect key="frame" x="15" y="12" width="270" height="21"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.0" green="0.25490196079999999" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="8uc-Xp-QpH"/>
+                        <constraint firstAttribute="trailing" secondItem="7cH-Nn-myc" secondAttribute="trailing" constant="15" id="AaW-ji-PzT"/>
+                        <constraint firstItem="7cH-Nn-myc" firstAttribute="top" secondItem="8v0-Jx-xUl" secondAttribute="top" constant="12" id="UOa-vm-swQ"/>
+                        <constraint firstItem="7cH-Nn-myc" firstAttribute="leading" secondItem="8v0-Jx-xUl" secondAttribute="leading" constant="15" id="iQJ-vv-imi"/>
+                        <constraint firstAttribute="bottom" secondItem="7cH-Nn-myc" secondAttribute="bottom" constant="12" id="iga-n7-RaD"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="datetime-icon" translatesAutoresizingMaskIntoConstraints="NO" id="160-OA-FXN">
+                    <rect key="frame" x="10" y="65" width="20" height="20"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="aMQ-1H-TcF"/>
+                        <constraint firstAttribute="height" constant="20" id="qRW-CC-SFl"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map-icon" translatesAutoresizingMaskIntoConstraints="NO" id="uDZ-D5-bPm">
+                    <rect key="frame" x="10" y="108" width="20" height="20"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notes-icon" translatesAutoresizingMaskIntoConstraints="NO" id="fn4-ZR-mBU">
+                    <rect key="frame" x="10" y="151" width="20" height="20"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:39, November 15, 2015" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbB-53-hGI">
+                    <rect key="frame" x="40" y="64" width="245" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="xhA-Ef-3kB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.40969290804281133" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A very good lecture about life and everything else" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="9iO-Sh-AyT">
+                    <rect key="frame" x="40" y="143" width="245" height="35"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="aOz-dJ-jCQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Irmã Simas street, 15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KwY-mH-ZGa">
+                    <rect key="frame" x="40" y="107" width="245" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NbB-53-hGI" firstAttribute="top" secondItem="8v0-Jx-xUl" secondAttribute="bottom" constant="19" id="5VD-vT-bcU"/>
+                <constraint firstItem="fn4-ZR-mBU" firstAttribute="top" secondItem="uDZ-D5-bPm" secondAttribute="bottom" constant="23" id="6U3-Vj-vZ1"/>
+                <constraint firstItem="NeR-Pm-ddq" firstAttribute="leading" secondItem="eR8-y0-s5s" secondAttribute="leading" id="BT3-hm-y7F"/>
+                <constraint firstItem="fn4-ZR-mBU" firstAttribute="width" secondItem="uDZ-D5-bPm" secondAttribute="width" id="Dqp-WE-FIa"/>
+                <constraint firstAttribute="bottom" secondItem="NeR-Pm-ddq" secondAttribute="bottom" id="FJk-xi-pNp"/>
+                <constraint firstItem="9iO-Sh-AyT" firstAttribute="leading" secondItem="KwY-mH-ZGa" secondAttribute="leading" id="Fpb-oM-UQS"/>
+                <constraint firstItem="160-OA-FXN" firstAttribute="leading" secondItem="eR8-y0-s5s" secondAttribute="leading" constant="10" id="HEH-H6-HLD"/>
+                <constraint firstItem="8v0-Jx-xUl" firstAttribute="leading" secondItem="eR8-y0-s5s" secondAttribute="leading" id="T6X-Yr-HXw"/>
+                <constraint firstAttribute="trailing" secondItem="8v0-Jx-xUl" secondAttribute="trailing" id="Tq3-W9-iLh"/>
+                <constraint firstItem="fn4-ZR-mBU" firstAttribute="leading" secondItem="uDZ-D5-bPm" secondAttribute="leading" id="VVA-82-hZP"/>
+                <constraint firstItem="KwY-mH-ZGa" firstAttribute="top" secondItem="NbB-53-hGI" secondAttribute="bottom" constant="22" id="Z1d-Bt-1rW"/>
+                <constraint firstItem="NbB-53-hGI" firstAttribute="leading" secondItem="160-OA-FXN" secondAttribute="trailing" constant="10" id="b2a-uB-SaO"/>
+                <constraint firstItem="8v0-Jx-xUl" firstAttribute="top" secondItem="eR8-y0-s5s" secondAttribute="top" id="cmy-HZ-KCx"/>
+                <constraint firstItem="uDZ-D5-bPm" firstAttribute="top" secondItem="160-OA-FXN" secondAttribute="bottom" constant="23" id="fe5-tg-9Ss"/>
+                <constraint firstAttribute="trailing" secondItem="NeR-Pm-ddq" secondAttribute="trailing" id="fyQ-JW-OtY"/>
+                <constraint firstItem="uDZ-D5-bPm" firstAttribute="trailing" secondItem="160-OA-FXN" secondAttribute="trailing" id="gMu-ap-HQj"/>
+                <constraint firstAttribute="trailing" secondItem="NbB-53-hGI" secondAttribute="trailing" constant="15" id="hav-yI-xzF"/>
+                <constraint firstItem="fn4-ZR-mBU" firstAttribute="height" secondItem="160-OA-FXN" secondAttribute="height" id="lHi-ct-e8m"/>
+                <constraint firstItem="9iO-Sh-AyT" firstAttribute="top" secondItem="KwY-mH-ZGa" secondAttribute="bottom" constant="15" id="lWa-hw-Tgc"/>
+                <constraint firstItem="uDZ-D5-bPm" firstAttribute="width" secondItem="160-OA-FXN" secondAttribute="width" id="lps-L0-XRe"/>
+                <constraint firstItem="uDZ-D5-bPm" firstAttribute="height" secondItem="160-OA-FXN" secondAttribute="height" id="qN6-0B-TgN"/>
+                <constraint firstItem="9iO-Sh-AyT" firstAttribute="trailing" secondItem="KwY-mH-ZGa" secondAttribute="trailing" id="qUU-fb-JE1"/>
+                <constraint firstItem="160-OA-FXN" firstAttribute="top" secondItem="8v0-Jx-xUl" secondAttribute="bottom" constant="20" id="qg3-nB-HYb"/>
+                <constraint firstItem="KwY-mH-ZGa" firstAttribute="leading" secondItem="NbB-53-hGI" secondAttribute="leading" id="ts9-uL-OmA"/>
+                <constraint firstItem="fn4-ZR-mBU" firstAttribute="trailing" secondItem="uDZ-D5-bPm" secondAttribute="trailing" id="u0H-Z2-yid"/>
+                <constraint firstItem="uDZ-D5-bPm" firstAttribute="leading" secondItem="160-OA-FXN" secondAttribute="leading" id="ub1-VA-aIq"/>
+                <constraint firstItem="KwY-mH-ZGa" firstAttribute="trailing" secondItem="NbB-53-hGI" secondAttribute="trailing" id="xnc-A1-Ufe"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addressSubEventLabel" destination="KwY-mH-ZGa" id="ScI-Wg-Lyb"/>
+                <outlet property="datetimeSubEventLabel" destination="NbB-53-hGI" id="sgL-um-wvL"/>
+                <outlet property="nameSubEventLabel" destination="7cH-Nn-myc" id="xQI-Ep-9em"/>
+                <outlet property="notesSubEventLabel" destination="9iO-Sh-AyT" id="4EP-x1-Is5"/>
+            </connections>
+            <point key="canvasLocation" x="255" y="388"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="datetime-icon" width="30" height="30"/>
+        <image name="map-icon" width="30" height="30"/>
+        <image name="notes-icon" width="30" height="30"/>
+    </resources>
+</document>

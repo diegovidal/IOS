@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  EventCast
+
+  Created by Lucas Eduardo on 26/10/15.
+  Copyright © 2015 RNCDev. All rights reserved.
+*/
+
+
+//General
+"checking" = "Checking";
+"server_error" = "Ops! Something went wrong with the server. Try again later.";
+
+//MainViewController
+"setup" = "Setting up Application";
+
+"new_event" = "New Event";
+"follow_event" = "Follow Event";
+
+"help" = "Help";
+"cancel" = "Cancel";
+"f.a.q." = "Frequently Asked Questions";
+"video_tutorial" = "Video Tutorial";
+"about" = "About";
+"contact_us" = "Contact Us";
+
+"available" = "available";
+"not_available" = "Not available";
+"not_exists" = "This hashtag does not exists";
+"creating_event" = "Creating event";
+
+"delete_confirm_title" = "Are you sure?";
+"delete_confirm_msg" = "This operation cannot be undone.";
+"yes" = "Yes";
+
+//NewEventPopup
+"empty_event_name" = "- The event name cannot be empty.\n";
+
+//MoreInfoPopup
+"mute" = "mute";
+"active" = "active";
+
+//EventList
+"share" = "Share\n Hashtag";
+"unfollowing" = "Unfollowing event";
+"share_event" = "FOLLOW my EVENT\n I just shared an event with you! To see it, please, download EventCast - www.eventca.st/download - you can start following the hashtag #%@";
+"loading" = "Loading, please wait...";
+"deleting_event" = "Removing event";
+
+//EventCell
+"creator" = "AUTHOR";
+"subscriber" = "SUBSCRIBER";
+"unfollow" = "Unfollow";
+"remove_event" = "Remove\n Event";
+
+//Event
+"event_not_available" = "Event hashtag not available!";

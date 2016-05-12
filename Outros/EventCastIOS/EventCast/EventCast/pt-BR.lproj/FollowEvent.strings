@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Follow"; ObjectID = "Krt-MJ-XAY"; */
+"Krt-MJ-XAY.normalTitle" = "Seguir";
+
+/* Class = "UILabel"; text = "#"; ObjectID = "kTe-Lp-nAa"; */
+"kTe-Lp-nAa.text" = "#";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "wNw-WY-mmY"; */
+"wNw-WY-mmY.normalTitle" = "Cancelar";
+
+/* Class = "UITextField"; placeholder = "Follow with the hashtag"; ObjectID = "x5d-4E-2jG"; */
+"x5d-4E-2jG.placeholder" = "Siga com a hashtag";

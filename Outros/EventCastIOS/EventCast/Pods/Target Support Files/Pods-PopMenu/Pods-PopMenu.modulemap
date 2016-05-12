@@ -1,0 +1,6 @@
+framework module PopMenu {
+  umbrella header "Pods-PopMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

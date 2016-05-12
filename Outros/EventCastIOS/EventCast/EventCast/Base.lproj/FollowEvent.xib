@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FollowEventPopup" customModule="EventCast" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lql-Ez-0ui">
+                    <rect key="frame" x="0.0" y="80" width="300" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Krt-MJ-XAY">
+                            <rect key="frame" x="245" y="0.0" width="47" height="50"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <state key="normal" title="Follow">
+                                <color key="titleColor" red="0.0" green="0.25490196079999999" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="didTouchFollowBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="s69-vw-bNn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNw-WY-mmY">
+                            <rect key="frame" x="179" y="0.0" width="47" height="50"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" red="0.0" green="0.25490196079999999" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="didTouchCancelBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="kcb-Te-oRS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="wNw-WY-mmY" firstAttribute="top" secondItem="Lql-Ez-0ui" secondAttribute="top" id="9Xv-lY-UKS"/>
+                        <constraint firstAttribute="height" constant="50" id="Iey-Yb-h5S"/>
+                        <constraint firstAttribute="bottom" secondItem="wNw-WY-mmY" secondAttribute="bottom" id="PC0-GW-duQ"/>
+                        <constraint firstItem="Krt-MJ-XAY" firstAttribute="leading" secondItem="wNw-WY-mmY" secondAttribute="trailing" constant="19" id="ZF1-9B-pwp"/>
+                        <constraint firstItem="wNw-WY-mmY" firstAttribute="width" secondItem="Krt-MJ-XAY" secondAttribute="width" id="a3B-16-sMm"/>
+                        <constraint firstAttribute="trailing" secondItem="Krt-MJ-XAY" secondAttribute="trailing" constant="8" id="gph-9F-hFD"/>
+                        <constraint firstAttribute="bottom" secondItem="Krt-MJ-XAY" secondAttribute="bottom" id="kcD-mB-m9U"/>
+                        <constraint firstItem="Krt-MJ-XAY" firstAttribute="top" secondItem="Lql-Ez-0ui" secondAttribute="top" id="tzG-Pi-Bo5"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FxL-C5-4vQ">
+                    <rect key="frame" x="15" y="22" width="270" height="36"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Follow with the hashtag" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x5d-4E-2jG">
+                            <rect key="frame" x="28" y="0.0" width="233" height="36"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTe-Lp-nAa">
+                            <rect key="frame" x="8" y="0.0" width="11" height="36"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.69544956141052616" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="kTe-Lp-nAa" firstAttribute="top" secondItem="FxL-C5-4vQ" secondAttribute="top" id="57l-qb-14E"/>
+                        <constraint firstAttribute="bottom" secondItem="x5d-4E-2jG" secondAttribute="bottom" id="Hhf-vg-7gb"/>
+                        <constraint firstAttribute="bottom" secondItem="kTe-Lp-nAa" secondAttribute="bottom" id="P0R-Pz-3lc"/>
+                        <constraint firstItem="x5d-4E-2jG" firstAttribute="top" secondItem="FxL-C5-4vQ" secondAttribute="top" id="bFh-FL-FfJ"/>
+                        <constraint firstAttribute="trailing" secondItem="x5d-4E-2jG" secondAttribute="trailing" constant="9" id="bbZ-ov-c7J"/>
+                        <constraint firstItem="kTe-Lp-nAa" firstAttribute="leading" secondItem="FxL-C5-4vQ" secondAttribute="leading" constant="8" id="bir-4p-yP7"/>
+                        <constraint firstItem="x5d-4E-2jG" firstAttribute="leading" secondItem="kTe-Lp-nAa" secondAttribute="trailing" constant="9" id="yfS-76-RYS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Lql-Ez-0ui" firstAttribute="top" secondItem="FxL-C5-4vQ" secondAttribute="bottom" constant="22" id="Cek-Wh-AU5"/>
+                <constraint firstItem="FxL-C5-4vQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="22" id="HiN-0J-0cB"/>
+                <constraint firstItem="FxL-C5-4vQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="Y0g-Gi-XY7"/>
+                <constraint firstAttribute="bottom" secondItem="Lql-Ez-0ui" secondAttribute="bottom" id="kGc-IQ-CNN"/>
+                <constraint firstItem="Lql-Ez-0ui" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lMH-72-XhQ"/>
+                <constraint firstAttribute="trailing" secondItem="Lql-Ez-0ui" secondAttribute="trailing" id="p0i-rr-ADw"/>
+                <constraint firstAttribute="trailing" secondItem="FxL-C5-4vQ" secondAttribute="trailing" constant="15" id="wmX-55-QXp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="textField" destination="x5d-4E-2jG" id="chH-eF-I4S"/>
+                <outlet property="textFieldContainer" destination="FxL-C5-4vQ" id="FA2-hL-Y8l"/>
+            </connections>
+            <point key="canvasLocation" x="255" y="388"/>
+        </view>
+    </objects>
+</document>

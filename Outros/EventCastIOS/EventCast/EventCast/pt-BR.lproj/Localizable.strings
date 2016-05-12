@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  EventCast
+
+  Created by Lucas Eduardo on 26/10/15.
+  Copyright © 2015 RNCDev. All rights reserved.
+*/
+
+
+//General
+"checking" = "Checando";
+"server_error" = "Ocorreu um erro com o servidor. Tente novamente mais tarde.";
+
+//MainViewController
+"setup" = "Preparando Aplicação";
+
+"new_event" = "Novo Evento";
+"follow_event" = "Seguir Evento";
+
+"help" = "Ajuda";
+"cancel" = "Cancelar";
+"f.a.q." = "Perguntas Frequentes";
+"video_tutorial" = "Video Tutorial";
+"about" = "Sobre";
+"contact_us" = "Contate-nos";
+
+"available" = "Disponível";
+"not_available" = "Não disponível";
+"not_exists" = "A Hashtag digitada não existe";
+"creating_event" = "Criando evento";
+
+"delete_confirm_title" = "Tem certeza?";
+"delete_confirm_msg" = "Essa operação não poderá ser desfeita.";
+"yes" = "Sim";
+
+//NewEventPopup
+"empty_event_name" = "- Nome do evento não pode ser vazio.\n";
+
+//MoreInfoPopup
+"mute" = "mute";
+"active" = "ativo";
+
+//EventList
+"share" = "Compartilhar Hashtag";
+"unfollowing" = "Deixando de seguir";
+"share_event" = "ASSINE o meu EVENTO\n Acabei de compartilhar um Evento com você! Para vê-lo, por favor, baixe o EventCast - www.eventca.st/download - você pode começar a seguir inserindo a hashtag #%@";
+"loading" = "Carregando, por favor aguarde...";
+"deleting_event" = "Removendo evento";
+
+//EventCell
+"creator" = "AUTOR";
+"subscriber" = "ASSINANTE";
+"unfollow" = "Deixar de\n Seguir";
+"remove_event" = "Excluir\n Evento";
+
+//Event
+"event_not_available" = "Hashtag não disponivel!";

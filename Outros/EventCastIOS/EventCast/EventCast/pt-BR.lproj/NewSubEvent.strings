@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Create"; ObjectID = "N83-KJ-5ab"; */
+"N83-KJ-5ab.normalTitle" = "Criar";
+
+/* Class = "UITextField"; placeholder = "SubEvent name"; ObjectID = "Occ-OA-wZW"; */
+"Occ-OA-wZW.placeholder" = "Nome do Destino";
+
+/* Class = "UITextField"; placeholder = "DateTime"; ObjectID = "dKr-CH-cMk"; */
+"dKr-CH-cMk.placeholder" = "Data e Hora do Destino";
+
+/* Class = "UITextField"; placeholder = "Notes"; ObjectID = "fP0-dy-Rev"; */
+"fP0-dy-Rev.placeholder" = "Notas";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "shQ-tl-QoX"; */
+"shQ-tl-QoX.normalTitle" = "Cancelar";
+
+/* Class = "UITextField"; placeholder = "Local"; ObjectID = "tsP-Fk-HgM"; */
+"tsP-Fk-HgM.placeholder" = "Local do Destino";

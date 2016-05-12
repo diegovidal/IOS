@@ -1,0 +1,351 @@
+%% abtex2-modelo-relatorio-tecnico.tex, v-1.7.1 laurocesar
+%% Copyright 2012-2013 by abnTeX2 group at http://abntex2.googlecode.com/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://abntex2.googlecode.com/
+%%
+%% This work consists of the files abntex2-modelo-relatorio-tecnico.tex,
+%% abntex2-modelo-include-comandos and abntex2-modelo-references.bib
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Relatório Técnico/Acadêmico em conformidade com 
+% ABNT NBR 10719:2011 Informação e documentação - Relatório técnico e/ou
+% científico - Apresentação
+% ------------------------------------------------------------------------ 
+% ------------------------------------------------------------------------
+
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	twoside,			% para impressão em verso e anverso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	]{abntex2}
+
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage{cmap}				% Mapear caracteres especiais no PDF
+\usepackage{lmodern}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+% ---
+
+% ---
+% Pacotes adicionais, usados no anexo do modelo de folha de identificação
+% ---
+\usepackage{multicol}
+\usepackage{multirow}
+% ---
+	
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{RELATÓRIO DE ESTÁGIO SUPERVISIONADO}
+\autor{Francisco José Araújo Chaves Souza}
+\local{Fortaleza, Ceará, Brasil}
+\data{Abril, 2015}
+\instituicao{%
+  Instituto Federal de Educação, Ciência e Tecnologia do Ceará -- IFCE
+  \par
+  Bacharelado em Engenharia de Computação
+  }
+
+\tipotrabalho{Relatório técnico}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{
+Relatório de estágio supervisionado obrigatório do curso de Bacharelado em Engenharia de Computação do Instituto Federal de Educação, Ciência e Tecnologia do Ceará - Campus Fortaleza, apresentado como requisito a obtenção do título de Bacharel em Engenharia de Computação.
+Empresa: Fundação Cearense de Pesquisa e Cultura
+Orientador: Glauber Ferreira Cintra
+}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{relatório técnico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% ---
+% Agradecimentos
+% ---
+\begin{agradecimentos}
+O agradecimento principal por este tempo de trabalho dirige-se ao time do \textit{ BEPiD Fortaleza}, pela sua audácia, força de constante e sua constante disponibilidade em ajudar todos os seus estagiários a desenvolverem as suas competências e se tornarem verdadeiros criadores de sonhos.
+\end{agradecimentos}
+% ---
+
+% ---
+% RESUMO
+% ---
+
+% resumo na língua vernácula (obrigatório)
+\begin{resumo}
+
+Este trabalho tem por finalidade apresentar um breve resumo das principais atividades desenvolvidas dentro do projeto \textit{BEPiD - Fortaleza}, o qual focou-se na formação e no desenvolvimento de programadores para dispositivos móveis embarcados com o sistema operacional iOS. As próximas seções mostraram melhor o desenvolvimento das atividades e os principais conhecimentos adiquiridos.
+
+ \vspace{\onelineskip}
+    
+ \noindent
+ \textbf{Palavras-chaves}: iOS. BEPiD. desenvolvimento. aplicativos para dispositivos móveis.
+\end{resumo}
+
+% ---
+% inserir lista de símbolos
+% ---
+\begin{siglas}
+  \item[BEPiD] Brazilian Enviroment Program for iOs Developers
+  \item[CBL] Challenge Based Learning
+\end{siglas}
+% ---
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+
+% ---
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Introdução
+% ----------------------------------------------------------
+\chapter*[Introdução]{Introdução}
+\addcontentsline{toc}{chapter}{Introdução}
+
+O BEPID \textit{Brazilian Enviroment Program for iOS Developers} é um projeto pioneiro realizado pela Apple Computing Inc., em parceria com universidades brasileiras, que tem por intuito a formação de desenvolvedores para o sistema operacional dos dispositivos móveis da referida empresa, o iOS. Tais programadores recebem formação técnica, humana e empreendedora, de modo a serem não apenas meros desenvolvedores, mas criadores de sonhos e de inovações de nível mundial. Este é um projeto ainda sem par em outros países e presente em cidades como Campinas, Brasília, Manaus, Porto Alegre, Rio de Janeiro e Recife. Assim, este trabalho procura relatar um pouco da experiência de trabalho no BEPiD durante os meses de setembro/2014 e março/2015. 
+
+
+
+% ---
+% Capitulo de revisão de literatura
+% ---
+\chapter{BEPiD -- Brazilian Enviroment Program for iOS Developers}
+
+% ---
+\section{Caracterização do Campo de Estágio}
+% ---
+
+O estágio no período de setembro de 2014 à março de 2015 deu-se nas dependências do Instituto Federal de Educação Ciência e Tecnologia do Ceará - IFCE, em um espaço especialmente construído par abrigar o projeto. Este,por sua vez tornou-se possível mediante uma feliz parceria entre o IFCE, a Apple Computing Inc., o Laboratório de Desenvolvimento de Software (LDS), a Fundação Cearense de Pesquisa e Cultura (FCPC) e algumas outra empresas privadas. Seu principal objetivo é formar desenvolvedores para a plataforma de dispositivos móveis da Apple, o iOS. Nessa primeira versão do projeto, foram admitidos 80 alunos.
+
+\section{Desenvolvimento do Estágio}
+Os trabalhos do programa iniciaram-e com a apresentação da metodologia de aprendizado e desenvolvimento utilizada pelo time do \textit{BEPiD}, o CBL (\textit{Challenge Based Learning} -- Aprendizagem Baseada em Desafios). Tal metodologia se baseia no fato de que o ensino tradicional peca ao atribuir ao aluno um papel meramente passivo diante da aquisição de conhecimento, o que contribuiria para um baixo índice de rendimento escolar e de fixação dos conhecimentos adquiridos. Assim, o CBL procura transformar o aluno em um agente aprendizagem, diminuindo a sua dependência de orientadores e professores, além de estimular que o próprio estudante possa realizar suas descobertas e validar seus conhecimentos através de uma construção de saber coletivo. 
+
+Nestas primeiras semanas foram desenvolvidas uma série de atividades em grupo que visavam acostumar os alunos a essa nova maneira de trabalhar. Elas eram marcadas principalmente por seu desenrolar se dar dentro de grupos, os quais debatiam ideias e procuravam soluções coletivamente. Ao final dessas semanas, apresentamos um protótipo de aplicação para solucionar algum problema da nossa comunidade. A proposta de meu time foi o desenvolvimento de um aplicativo para a procura de pessoas desaparecidas. 
+
+No mês seguinte tivemos as nossas primeiras aulas introdutórias ao universo dos dispositivos Apple, começando por aulas básicas sobre como utilizar o sistema operacional para computadores da Apple, o MacOS para depois nos depararmos com a linguagem de programação por ela utilizada: o Objective C. Tais aulas foram ministradas pelos professores ligados ao projeto, assim como pelos monitores do mesmo.
+
+Os meses de outubro e novembro foram dedicados ao estudo do principal framework da Apple: o UIKit. Este pode ser definido como um conjunto de componentes gráficos responsáveis por permitir a construção de interfaces gráficas de usuário em iOS. Nessa época ainda não possuíamos nossos kits individuais de desenvolvimento, mas as atividades poderiam ser desenvolvidas sem problemas com a utilização de máquinas cedidas temporariamente pelo Instituto Federal e simuladores do sistema operacional móvel. Utilizando-se bastante da prática do CBL éramos constantemente instigados a ultrapassar as barreiras daquilo que estava sendo mostrado através das explanações e realizarmos nossas próprias descobertas, compartilhando-as com o restante da turma. Além disso, também sempre possuíamos atividades práticas que ajudavam a fixar os conhecimentos adquiridos e realizar novas descobertas.
+
+De acordo com a metodologia CBL, para que o aluno possa efetivamente aprender algo, ele precisa perceber a aplicabilidade daquele conhecimento adquirido em algum contexto concreto. Para tanto, ele deve ser constantemente estimulado através da realização de desafios a sua capacidade cognitiva, procurando-se aplicar os seus conhecimentos e competências na solução de um problema real. Neste contexto, ao final do mês de novembro, foi-nos apresentado nosso primeiro desafio (minichallenge): o de desenvolver uma aplicação iOS atacando alguma problemática de nosso dia-a-dia.
+
+A problemática que escolhemos tinha a ver com aproximar as pessoas comuns daquilo que estava acontecendo no nosso cenário político, permitindo que o cidadão possa eleger melhores representantes através do acompanhamento da vida política dos mesmos. Assim, nasceu o Radar Político. Este aplicativo era responsável por coletar informações oriundas dos web services da Câmara dos Deputados e do Senado Federal e exibi-las de uma forma amigável ao usuário, entre elas se encontrava uma descrição básica do político (nome, filiação, cargo, telefone de contato, gabinete e e-mail), suas proposições em plenário e seu histórico de faltas. Tivemos muita dificuldade durante o gerenciamento do projeto do Radar Político, entre elas encontraram-se problemas de gerenciamento de tempo, comunicação entre membros do time, atrasos nas entregas entre outros.
+
+Durante o mês de dezembro, o principal evento foi a apresentação de alguns dos aplicativos desenvolvidos no BEPiD - Fortaleza para o time do BEPiD da Apple. Esta foi uma experiência muito enriquecedora e mostrou a capacidade de um time de desenvolvimento quando ele trabalha unido e como ele pode estar sempre melhorando seus produtos. O resto do mês foi dedicado a realizar ajustes no aplicativo e publicá-lo na loja de aplicativos do iOs.
+
+Em 2015, o projeto retornou às suas atividades no mês de janeiro. Nesta nova fase do programa, os alunos começaram a ter um nível de independência maior de seus orientadores e monitores do projeto, passando a lecionar também algumas aulas. Esse passo foi muito importante porque permite que os alunos possam compartilhar mais efetivamente os seus conhecimentos, perder alguma inibição e permitir aos demais saber que pode recorrer aos colegas quando precisar de ajuda. Assim, foram lecionados conteúdos mais técnicos relacionados a plataforma iOs, como programação concorrente, gerenciamento de memória, ciclo de vida de uma aplicação, gestos, entre outros. 
+
+O mês de fevereiro continuou no ritmo do anterior. Alguns colegas acabaram desistindo do programa e outros tomaram seu lugar. Um dos alunos do turno da tarde introduziu-nos ao framework para desenvolvimento de jogos da Apple: o \textit{SpriteKit}. Além disso, um dos professores do projeto começou a lecionar um curso de gerenciamento de projetos utilizando a metodologia \textit{scrum}, o qual se estendeu até o mês de março.
+
+Por fim, em março, foi-nos apresentado o nosso segundo desafio (II Minichallenge), onde nos foi proposto desenvolver uma aplicação iOs tendo por base os conhecimentos adquiridos. Eu e meu time, o qual quer diferente do primeiro minichallenge, resolvemos desenvolver um jogo ambientado na realidade das ciclovias de Fortaleza. Chamamo-no de \textit{Bike Survivor} e apresentamos ao fim de março para alguns membros do time educacional da Apple que vieram ver nossos aplicativos. Recebemos muitos elogios e também sugestões, de modo que pudéssemos aprimorar nosso produto. Sobre este time de desenvolvimento não há muito o que comentar, todos nós colaboramos bastante uns com os outros e tínhamos uma boa comunicação, assim considero que os resultados de nosso trabaho foram muito satisfatórios.
+
+\section{Referencial Teórico}
+
+\textit{Challenge Based Learning} (CBL) -- Aprendizagem Baseada em Desafios -- é um framework desenvolvido pelo time educacional da Apple, como uma forma de melhorar o processo de aprendizado dos estudantes. A ideia central por detrás de toda essa metodologia é que o sistema tradicional de ensino restringe muito a liberdade criativa dos estudantes e a sua capacidade de realizar suas próprias descobertas. Isso ocorre principalmente porque os alunos são vistos como apenas consumidores de conteúdo educacional, recebendo as informações de seus professores e tendo poucas oportunidades para fixar o que foi aprendido de uma forma mais clara. Contudo, deve-se observar que a metodologia CBL não destrói a figura do professor, apenas lhe tira a centralidade do processo educacional e a atribui àqueles que desejam obter o conhecimento. Deste modo, sempre há uma figura que guiará o processo de aprendizado, instigando a realização de descobertas, de forma colaborativa.
+
+\begin{quote}
+"Challenge Based Learning mirrors the 21st century workplace. Students work in collaborative groups and use technology to tackle real-world issues in the context of
+their school, family, or local community. For teachers, the task is to work with students to take multidisciplinary standards-based content, connect it to what is happening in the world today, and translate it into an experience in which students make a difference in their community. Accomplishing this goal necessitates giving students structure, support, checkpoints, and the right tools to get their work done successfully, while allowing them enough freedom to be self-directed, creative, and inspired."
+
+\cite{cbl_methodology}
+
+\end{quote}
+\section{Metodologia}
+
+A metodologia CBL possui um conjunto de etapas bem definidas, as quais precisam ser realizadas para que o processo de aprendizagem tenha sucesso. 
+
+\begin{itemize}
+\item \textbf{\textit{The Big Idea} -- A grande ideia}: O processo de aprendizado começa com uma grande ideia. Esta pode ser definida como uma temática bem genérica em que se insere determinado problema que se deseja atacar. Seu principal propósito é inserir o aluno na realidade que será abordada durante este ciclo de trabalho. Como exemplos de \textit{big ideas} podemos citar: violência, saúde pública, economia, mudanças climáticas, entre outras.
+
+\item \textbf{\textit{Essential Question} -- Questão Essencial}: Após se escolher uma \textit{big idea} sobre a qual trabalhar, é apresentada aos alunos um questionamento, que será responsável por expor o problema aos estudantes. Por exemplo, se a temática é a seca no ceará, uma questão essencial pertinente poderia ser: \textit{"Como meu consumo de água afeta a minha comunidade?"} ou \textit{"Como o meu consumo de combustíveis fósseis tem contribuído para mudar o clima do planeta?"}.
+
+\item \textbf{\textit{The Challenge} -- o desafio}: O desafio consiste em uma etapa da metodologia onde os alunos são desafiados a fornecer uma solução para o problema abordado, utilizando as tecnologias que atualmente estão disponíveis e acessíveis aos estudantes. É nesta etapa que são utilizadas as seguintes ferramentas para proporcionar um entendimento do universo do problema abordado e, assim, ajudar o aluno a construir um conhecimento válido.
+
+\begin{enumerate}
+\item \textbf{\textit{Guiding Questions} -- Questões-Guia}: Em cada desafio, os alunos trabalham reunidos em grupos pequenos (geralmente de três ou quatro estudantes), e para melhor entendimento eles começam a elaborar um conjunto de questionamentos que os nortearão durante o processo de aprendizagem. Neste momento, o educador não deve intervir e deixar que o grupo decida quais perguntas fazer e como priozar as mais importantes.
+
+\item \textbf{\textit{Guiding Activities} -- Atividades-Guia}: Assim como estudantes tem autonomia para decidir quais os questionamentos a serem feitos a respeito de certo problema, eles também a possuem no que tange a decidir a maneira mais apropriada de respondê-las e realizar as atividades que para tanto são necessárias. 
+
+\item \textbf{\textit{Guinding resourses} -- Recursos-Guia}: Uma dos pilares do CBL é que devemos utilizar a incrível capacidade dos estudantes atuais em lidar com um mundo cada vez mais conectado para incrementar o processo de aprendizagem. Assim, procura-se estimular que além dos meios tradicionais, os estudantes possam utilizar as tecnologias modernas para realizar as suas próprias descobertas e construir seu próprio conhecimento a respeito do mundo.
+\end{enumerate}
+
+\item \textbf{\textit{Solution} -- Solução}: A solução representa para os estudantes a realização de todo o desafio. É nessa etapa do processo que eles aplicam todo o conhecimento adquirido até então e elaboram proposições (ou produtos) para solucionar o problema abordado. Para nós que participamos do BEPiD, era nessa fase que começávamos a codificação de nossos aplicativos.
+
+\item \textbf{\textit{Evaluation} -- Avaliação}: esta é a fase final do processo de aprendizagem do CBL. Aqui os alunos apresentam as suas soluções e compartilham os conhecimentos acumulados até então com as demais equipes de trabalho. São apresentadas justificativas para as soluções obtidas e suas ideias são discutidas com todos os grupos. É nesta fase que os alunos fazem uma reflexão individual sobre aquilo que aprenderam, a aplicabilidade desses conhecimentos e elabora estratégias para continuar crescendo.
+
+\end{itemize}
+
+\section{Resultados e Análise}
+
+Penso que o BEPiD seja um dos melhores projetos que já foram realizados em parceria com o IFCE, pois lá somos realmente instigados a aprender e a compreender perfeitamente o que estamos fazendo. Os alunos aprendem que a competição que surge dentro dos ambientes de ensino não é saudável para uma real construção do saber e começam a trabalhar colaborativamente de uma forma mais natural e madura. Além disso, somos constantemente apoiados pelos times do BEPiD-Fortaleza e da equipe educacional da Apple. Atualmente estamos começando o terceiro módulo do projeto e já possuímos dois aplicativos desenvolvidos como resultado desse processo de aprensizagem. Portanto, a minha avaliação é que o projeto está sendo muito bem condzido e tem tudo para continuar crescendo. 
+
+% ---
+% Finaliza a parte no bookmark do PDF, para que se inicie o bookmark na raiz
+% ---
+\bookmarksetup{startatroot}% 
+% ---
+
+% ---
+% Conclusão
+% ---
+\chapter*[Conclusão]{Conclusão}
+\addcontentsline{toc}{chapter}{Conclusão}
+
+Este trabalho teve por fim realizar uma breve descrição de meu estágio como bolsista no projeto BEPiD. Esse, com certeza, é um projeto muito bom, onde me senti realmente capaz de desenvolver plenamente as minhas capacidades como profissional da área de Engenharia de Computação. Ainda há cerca de mais seis meses de projeto e penso que muitas boas surpresas ainda me aguardam, assim, creio que ainda aprenderei e amadurecerei muito lá dentro. 
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{abntex2-modelo-references}
+
+\end{document}

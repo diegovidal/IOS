@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'Alamofire', '~> 3.0'
+pod 'PopMenu', :podspec => 'https://raw.github.com/lucasecf/PopMenu/master/PopMenu.podspec'
+pod 'AHKActionSheet', '~> 0.5.3'
+pod 'PopupContainer'
+pod 'KeychainAccess'
+pod 'SVProgressHUD'
+pod 'Cent'
+pod 'AFDateHelper'
+pod 'DZNEmptyDataSet'

@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Notificar"; ObjectID = "LVy-2H-fj2"; */
+"LVy-2H-fj2.text" = "Notificar";
+
+/* Class = "UILabel"; text = "Destinos"; ObjectID = "mvd-1V-nud"; */
+"mvd-1V-nud.text" = "Destinos";
+
+/* Class = "UIButton"; normalTitle = "Remove"; ObjectID = "ujp-Rq-CrK"; */
+"ujp-Rq-CrK.normalTitle" = "Excluir";
+
+/* Class = "UIButton"; normalTitle = "Unfollow"; ObjectID = "eHT-XC-U9O"; */
+"eHT-XC-U9O.normalTitle" = "Deixar de\n Seguir";
+
+/* Class = "UIButton"; normalTitle = "Share Hashtag"; ObjectID = "k5c-oQ-8Hq"; */
+"k5c-oQ-8Hq.normalTitle" = "Compartilhar\n Hashtag";
+
+/* Class = "UIButton"; normalTitle = "More"; ObjectID = "Lv9-dV-Pht"; */
+"Lv9-dV-Pht.normalTitle" = "Mais";

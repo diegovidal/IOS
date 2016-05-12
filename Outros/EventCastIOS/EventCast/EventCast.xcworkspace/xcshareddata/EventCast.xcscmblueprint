@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DC45C5A65C833FAA8CAC0D9CCD8E10F50941DC52",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DC45C5A65C833FAA8CAC0D9CCD8E10F50941DC52" : 0,
+    "E910895ECF472F71734E3141038CBDB098510AD2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3A498A3A-AA7C-47F8-9F6E-B9A0F6121A7F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DC45C5A65C833FAA8CAC0D9CCD8E10F50941DC52" : "EventCast_IOS",
+    "E910895ECF472F71734E3141038CBDB098510AD2" : "moodcrowd-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EventCast",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EventCast\/EventCast.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RNCDev\/EventCast_IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DC45C5A65C833FAA8CAC0D9CCD8E10F50941DC52"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/lucastorquato\/moodcrowd-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E910895ECF472F71734E3141038CBDB098510AD2"
+    }
+  ]
+}

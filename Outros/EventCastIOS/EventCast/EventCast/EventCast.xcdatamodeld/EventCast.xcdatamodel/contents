@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="Event" representedClassName=".Event" syncable="YES">
+        <attribute name="hashCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneUser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="subscribersCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="subEvents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SubEvent" inverseName="event" inverseEntity="SubEvent" syncable="YES"/>
+        <relationship name="subscription" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Subscription" inverseName="event" inverseEntity="Subscription" syncable="YES"/>
+    </entity>
+    <entity name="SubEvent" representedClassName=".SubEvent" syncable="YES">
+        <attribute name="attendance" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="local" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Event" inverseName="subEvents" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <entity name="Subscription" representedClassName=".Subscription" syncable="YES">
+        <attribute name="confirmed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Event" inverseName="subscription" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="-207" positionY="36" width="128" height="165"/>
+        <element name="SubEvent" positionX="-54" positionY="36" width="128" height="148"/>
+        <element name="Subscription" positionX="-126" positionY="99" width="128" height="90"/>
+    </elements>
+</model>
